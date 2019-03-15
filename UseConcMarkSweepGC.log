@@ -1,317 +1,115 @@
 Java HotSpot(TM) 64-Bit Server VM (25.111-b14) for windows-amd64 JRE (1.8.0_111-b14), built on Sep 22 2016 19:24:05 by "java_re" with MS VC++ 10.0 (VS2010)
-Memory: 4k page, physical 16714364k(10133148k free), swap 33426828k(23405996k free)
+Memory: 4k page, physical 16714364k(9907208k free), swap 33426828k(23578832k free)
 CommandLine flags: -XX:InitialHeapSize=273888048 -XX:MaxHeapSize=1073741824 -XX:MaxNewSize=268435456 -XX:MaxTenuringThreshold=6 -XX:NewSize=268435456 -XX:OldPLABSize=16 -XX:+PrintGC -XX:+PrintGCApplicationConcurrentTime -XX:+PrintGCApplicationStoppedTime -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:-UseLargePagesIndividualAllocation -XX:+UseParNewGC 
-2019-03-15T20:48:14.686+0900: 0.994: Application time: 0.9214109 seconds
-2019-03-15T20:48:14.686+0900: 0.994: [GC (Allocation Failure) 2019-03-15T20:48:14.686+0900: 0.994: [ParNew: 209792K->26176K(235968K), 0.7162021 secs] 209792K->190544K(400608K), 0.7163498 secs] [Times: user=2.39 sys=0.09, real=0.72 secs] 
-2019-03-15T20:48:15.403+0900: 1.711: Total time for which application threads were stopped: 0.7164979 seconds, Stopping threads took: 0.0000308 seconds
-2019-03-15T20:48:15.403+0900: 1.711: Application time: 0.0000305 seconds
-2019-03-15T20:48:15.403+0900: 1.711: [GC (CMS Initial Mark) [1 CMS-initial-mark: 164368K(164640K)] 190729K(400608K), 0.0055318 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-2019-03-15T20:48:15.408+0900: 1.716: Total time for which application threads were stopped: 0.0056160 seconds, Stopping threads took: 0.0000180 seconds
-2019-03-15T20:48:15.408+0900: 1.716: [CMS-concurrent-mark-start]
-2019-03-15T20:48:15.578+0900: 1.885: [CMS-concurrent-mark: 0.169/0.169 secs] [Times: user=0.16 sys=0.02, real=0.17 secs] 
-2019-03-15T20:48:15.578+0900: 1.885: [CMS-concurrent-preclean-start]
-2019-03-15T20:48:15.579+0900: 1.886: [CMS-concurrent-preclean: 0.000/0.000 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-2019-03-15T20:48:15.579+0900: 1.886: [CMS-concurrent-abortable-preclean-start]
-2019-03-15T20:48:15.697+0900: 2.004: Application time: 0.2876589 seconds
-2019-03-15T20:48:15.697+0900: 2.004: [Full GC (System.gc()) 2019-03-15T20:48:15.697+0900: 2.004: [CMS2019-03-15T20:48:15.797+0900: 2.104: [CMS-concurrent-abortable-preclean: 0.119/0.218 secs] [Times: user=0.11 sys=0.00, real=0.22 secs] 
- (concurrent mode interrupted): 164368K->164639K(164640K), 0.5972099 secs] 275358K->245342K(400608K), [Metaspace: 3863K->3863K(1056768K)], 0.5975272 secs] [Times: user=0.50 sys=0.00, real=0.60 secs] 
-2019-03-15T20:48:16.295+0900: 2.602: Total time for which application threads were stopped: 0.5976354 seconds, Stopping threads took: 0.0000143 seconds
-2019-03-15T20:48:16.315+0900: 2.623: Application time: 0.0208696 seconds
-2019-03-15T20:48:16.316+0900: 2.623: [Full GC (System.gc()) 2019-03-15T20:48:16.316+0900: 2.623: [CMS: 164639K->274399K(274400K), 0.4857863 secs] 253597K->275976K(510368K), [Metaspace: 3864K->3864K(1056768K)], 0.4862513 secs] [Times: user=0.47 sys=0.02, real=0.49 secs] 
-2019-03-15T20:48:16.802+0900: 3.109: Total time for which application threads were stopped: 0.4863633 seconds, Stopping threads took: 0.0000311 seconds
-2019-03-15T20:48:16.802+0900: 3.109: Application time: 0.0000476 seconds
-2019-03-15T20:48:16.802+0900: 3.109: [GC (CMS Initial Mark) [1 CMS-initial-mark: 274399K(457336K)] 275976K(693304K), 0.0015517 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-2019-03-15T20:48:16.803+0900: 3.111: Total time for which application threads were stopped: 0.0016456 seconds, Stopping threads took: 0.0000379 seconds
-2019-03-15T20:48:16.804+0900: 3.111: [CMS-concurrent-mark-start]
-2019-03-15T20:48:16.834+0900: 3.141: Application time: 0.0300378 seconds
-2019-03-15T20:48:16.834+0900: 3.141: [Full GC (System.gc()) 2019-03-15T20:48:16.834+0900: 3.141: [CMS2019-03-15T20:48:17.007+0900: 3.314: [CMS-concurrent-mark: 0.203/0.204 secs] [Times: user=0.20 sys=0.00, real=0.20 secs] 
- (concurrent mode interrupted): 274399K->276556K(457336K), 0.6368905 secs] 288358K->276556K(693304K), [Metaspace: 3864K->3864K(1056768K)], 0.6370311 secs] [Times: user=0.64 sys=0.00, real=0.64 secs] 
-2019-03-15T20:48:17.471+0900: 3.778: Total time for which application threads were stopped: 0.6372450 seconds, Stopping threads took: 0.0000986 seconds
-2019-03-15T20:48:17.525+0900: 3.833: Application time: 0.0546806 seconds
-2019-03-15T20:48:17.526+0900: 3.833: [Full GC (System.gc()) 2019-03-15T20:48:17.526+0900: 3.833: [CMS: 276556K->276556K(460928K), 0.5802411 secs] 293065K->276556K(696896K), [Metaspace: 3864K->3864K(1056768K)], 0.5803923 secs] [Times: user=0.58 sys=0.00, real=0.58 secs] 
-2019-03-15T20:48:18.106+0900: 4.413: Total time for which application threads were stopped: 0.5806125 seconds, Stopping threads took: 0.0000709 seconds
-2019-03-15T20:48:18.106+0900: 4.413: Application time: 0.0000603 seconds
-2019-03-15T20:48:18.106+0900: 4.413: [GC (CMS Initial Mark) [1 CMS-initial-mark: 276556K(460928K)] 276556K(696896K), 0.0000989 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-2019-03-15T20:48:18.106+0900: 4.413: Total time for which application threads were stopped: 0.0001540 seconds, Stopping threads took: 0.0000258 seconds
-2019-03-15T20:48:18.106+0900: 4.414: [CMS-concurrent-mark-start]
-2019-03-15T20:48:18.136+0900: 4.444: Application time: 0.0302091 seconds
-2019-03-15T20:48:18.137+0900: 4.444: [Full GC (System.gc()) 2019-03-15T20:48:18.137+0900: 4.444: [CMS2019-03-15T20:48:18.305+0900: 4.612: [CMS-concurrent-mark: 0.199/0.199 secs] [Times: user=0.19 sys=0.00, real=0.20 secs] 
- (concurrent mode interrupted): 276556K->276556K(460928K), 0.9507448 secs] 288938K->276556K(696896K), [Metaspace: 3864K->3864K(1056768K)], 0.9508627 secs] [Times: user=0.89 sys=0.02, real=0.95 secs] 
-2019-03-15T20:48:19.087+0900: 5.395: Total time for which application threads were stopped: 0.9509905 seconds, Stopping threads took: 0.0000348 seconds
-2019-03-15T20:48:19.119+0900: 5.426: Application time: 0.0313954 seconds
-2019-03-15T20:48:19.119+0900: 5.426: [Full GC (System.gc()) 2019-03-15T20:48:19.119+0900: 5.426: [CMS: 276556K->276556K(460928K), 0.7384735 secs] 288938K->276556K(696896K), [Metaspace: 3864K->3864K(1056768K)], 0.7385789 secs] [Times: user=0.70 sys=0.03, real=0.74 secs] 
-2019-03-15T20:48:19.857+0900: 6.165: Total time for which application threads were stopped: 0.7386706 seconds, Stopping threads took: 0.0000131 seconds
-2019-03-15T20:48:19.857+0900: 6.165: Application time: 0.0000411 seconds
-2019-03-15T20:48:19.858+0900: 6.165: [GC (CMS Initial Mark) [1 CMS-initial-mark: 276556K(460928K)] 276556K(696896K), 0.0001409 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-2019-03-15T20:48:19.858+0900: 6.165: Total time for which application threads were stopped: 0.0002277 seconds, Stopping threads took: 0.0000373 seconds
-2019-03-15T20:48:19.858+0900: 6.165: [CMS-concurrent-mark-start]
-2019-03-15T20:48:19.877+0900: 6.185: Application time: 0.0197372 seconds
-2019-03-15T20:48:19.878+0900: 6.185: [Full GC (System.gc()) 2019-03-15T20:48:19.878+0900: 6.185: [CMS2019-03-15T20:48:20.053+0900: 6.361: [CMS-concurrent-mark: 0.195/0.196 secs] [Times: user=0.20 sys=0.00, real=0.19 secs] 
- (concurrent mode interrupted): 276556K->276556K(460928K), 0.8995242 secs] 284811K->276556K(696896K), [Metaspace: 3864K->3864K(1056768K)], 0.8996595 secs] [Times: user=0.90 sys=0.00, real=0.90 secs] 
-2019-03-15T20:48:20.777+0900: 7.085: Total time for which application threads were stopped: 0.8997908 seconds, Stopping threads took: 0.0000504 seconds
-2019-03-15T20:48:20.807+0900: 7.115: Application time: 0.0302956 seconds
-2019-03-15T20:48:20.808+0900: 7.115: [Full GC (System.gc()) 2019-03-15T20:48:20.808+0900: 7.115: [CMS: 276556K->276556K(460928K), 0.7361545 secs] 288938K->276556K(696896K), [Metaspace: 3864K->3864K(1056768K)], 0.7363411 secs] [Times: user=0.69 sys=0.03, real=0.74 secs] 
-2019-03-15T20:48:21.544+0900: 7.851: Total time for which application threads were stopped: 0.7365259 seconds, Stopping threads took: 0.0000442 seconds
-2019-03-15T20:48:21.544+0900: 7.852: Application time: 0.0001978 seconds
-2019-03-15T20:48:21.544+0900: 7.852: [GC (CMS Initial Mark) [1 CMS-initial-mark: 276556K(460928K)] 276556K(696896K), 0.0001229 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-2019-03-15T20:48:21.544+0900: 7.852: Total time for which application threads were stopped: 0.0001751 seconds, Stopping threads took: 0.0000118 seconds
-2019-03-15T20:48:21.544+0900: 7.852: [CMS-concurrent-mark-start]
-2019-03-15T20:48:21.611+0900: 7.918: Application time: 0.0663643 seconds
-2019-03-15T20:48:21.611+0900: 7.918: [Full GC (System.gc()) 2019-03-15T20:48:21.611+0900: 7.918: [CMS2019-03-15T20:48:21.750+0900: 8.057: [CMS-concurrent-mark: 0.205/0.205 secs] [Times: user=0.20 sys=0.00, real=0.21 secs] 
- (concurrent mode interrupted): 276556K->276556K(460928K), 0.8830210 secs] 288938K->276556K(696896K), [Metaspace: 3864K->3864K(1056768K)], 0.8831324 secs] [Times: user=0.81 sys=0.03, real=0.88 secs] 
-2019-03-15T20:48:22.494+0900: 8.801: Total time for which application threads were stopped: 0.8832344 seconds, Stopping threads took: 0.0000184 seconds
-2019-03-15T20:48:22.555+0900: 8.862: Application time: 0.0606080 seconds
-2019-03-15T20:48:22.555+0900: 8.862: [Full GC (System.gc()) 2019-03-15T20:48:22.555+0900: 8.862: [CMS: 276556K->276556K(460928K), 0.7203100 secs] 297193K->276556K(696896K), [Metaspace: 3865K->3865K(1056768K)], 0.7204257 secs] [Times: user=0.69 sys=0.03, real=0.72 secs] 
-2019-03-15T20:48:23.275+0900: 9.583: Total time for which application threads were stopped: 0.7205433 seconds, Stopping threads took: 0.0000215 seconds
-2019-03-15T20:48:23.275+0900: 9.583: Application time: 0.0001636 seconds
-2019-03-15T20:48:23.275+0900: 9.583: [GC (CMS Initial Mark) [1 CMS-initial-mark: 276556K(460928K)] 276556K(696896K), 0.0029736 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-2019-03-15T20:48:23.278+0900: 9.586: Total time for which application threads were stopped: 0.0030421 seconds, Stopping threads took: 0.0000100 seconds
-2019-03-15T20:48:23.278+0900: 9.586: [CMS-concurrent-mark-start]
-2019-03-15T20:48:23.371+0900: 9.679: Application time: 0.0931675 seconds
-2019-03-15T20:48:23.371+0900: 9.679: [Full GC (System.gc()) 2019-03-15T20:48:23.372+0900: 9.679: [CMS2019-03-15T20:48:23.478+0900: 9.786: [CMS-concurrent-mark: 0.200/0.200 secs] [Times: user=0.19 sys=0.00, real=0.20 secs] 
- (concurrent mode interrupted): 276556K->276556K(460928K), 0.8186899 secs] 297193K->276556K(696896K), [Metaspace: 3865K->3865K(1056768K)], 0.8188090 secs] [Times: user=0.80 sys=0.01, real=0.82 secs] 
-2019-03-15T20:48:24.190+0900: 10.498: Total time for which application threads were stopped: 0.8189163 seconds, Stopping threads took: 0.0000174 seconds
-2019-03-15T20:48:24.211+0900: 10.519: Application time: 0.0211355 seconds
-2019-03-15T20:48:24.212+0900: 10.519: [Full GC (System.gc()) 2019-03-15T20:48:24.212+0900: 10.519: [CMS: 276556K->276556K(460928K), 0.8345160 secs] 284811K->276556K(696896K), [Metaspace: 3865K->3865K(1056768K)], 0.8348858 secs] [Times: user=0.69 sys=0.02, real=0.83 secs] 
-2019-03-15T20:48:25.046+0900: 11.354: Total time for which application threads were stopped: 0.8349890 seconds, Stopping threads took: 0.0000159 seconds
-2019-03-15T20:48:25.047+0900: 11.354: Application time: 0.0004444 seconds
-2019-03-15T20:48:25.047+0900: 11.354: [GC (CMS Initial Mark) [1 CMS-initial-mark: 276556K(460928K)] 276556K(696896K), 0.0001005 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-2019-03-15T20:48:25.047+0900: 11.355: Total time for which application threads were stopped: 0.0001468 seconds, Stopping threads took: 0.0000081 seconds
-2019-03-15T20:48:25.047+0900: 11.355: [CMS-concurrent-mark-start]
-2019-03-15T20:48:25.089+0900: 11.397: Application time: 0.0421951 seconds
-2019-03-15T20:48:25.089+0900: 11.397: [Full GC (System.gc()) 2019-03-15T20:48:25.089+0900: 11.397: [CMS2019-03-15T20:48:25.246+0900: 11.553: [CMS-concurrent-mark: 0.199/0.199 secs] [Times: user=0.19 sys=0.00, real=0.20 secs] 
- (concurrent mode interrupted): 276556K->276556K(460928K), 0.8552195 secs] 284811K->276556K(696896K), [Metaspace: 3865K->3865K(1056768K)], 0.8553386 secs] [Times: user=0.80 sys=0.05, real=0.86 secs] 
-2019-03-15T20:48:25.945+0900: 12.252: Total time for which application threads were stopped: 0.8554552 seconds, Stopping threads took: 0.0000156 seconds
-2019-03-15T20:48:25.975+0900: 12.283: Application time: 0.0307938 seconds
-2019-03-15T20:48:25.975+0900: 12.283: [Full GC (System.gc()) 2019-03-15T20:48:25.975+0900: 12.283: [CMS: 276556K->276556K(460928K), 0.6862664 secs] 288938K->276556K(696896K), [Metaspace: 3865K->3865K(1056768K)], 0.6863790 secs] [Times: user=0.67 sys=0.01, real=0.69 secs] 
-2019-03-15T20:48:26.662+0900: 12.969: Total time for which application threads were stopped: 0.6864841 seconds, Stopping threads took: 0.0000156 seconds
-2019-03-15T20:48:26.662+0900: 12.970: Application time: 0.0000308 seconds
-2019-03-15T20:48:26.662+0900: 12.970: [GC (CMS Initial Mark) [1 CMS-initial-mark: 276556K(460928K)] 276556K(696896K), 0.0001017 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-2019-03-15T20:48:26.662+0900: 12.970: Total time for which application threads were stopped: 0.0001462 seconds, Stopping threads took: 0.0000081 seconds
-2019-03-15T20:48:26.662+0900: 12.970: [CMS-concurrent-mark-start]
-2019-03-15T20:48:26.683+0900: 12.991: Application time: 0.0213747 seconds
-2019-03-15T20:48:26.683+0900: 12.991: [Full GC (System.gc()) 2019-03-15T20:48:26.684+0900: 12.991: [CMS2019-03-15T20:48:26.855+0900: 13.163: [CMS-concurrent-mark: 0.193/0.193 secs] [Times: user=0.20 sys=0.00, real=0.19 secs] 
- (concurrent mode interrupted): 276556K->276556K(460928K), 0.8567183 secs] 284811K->276556K(696896K), [Metaspace: 3865K->3865K(1056768K)], 0.8568417 secs] [Times: user=0.84 sys=0.02, real=0.86 secs] 
-2019-03-15T20:48:27.540+0900: 13.848: Total time for which application threads were stopped: 0.8569655 seconds, Stopping threads took: 0.0000159 seconds
-2019-03-15T20:48:27.570+0900: 13.878: Application time: 0.0300527 seconds
-2019-03-15T20:48:27.570+0900: 13.878: [Full GC (System.gc()) 2019-03-15T20:48:27.570+0900: 13.878: [CMS: 276556K->276556K(460928K), 0.6878305 secs] 288938K->276556K(696896K), [Metaspace: 3865K->3865K(1056768K)], 0.6879456 secs] [Times: user=0.64 sys=0.05, real=0.69 secs] 
-2019-03-15T20:48:28.258+0900: 14.566: Total time for which application threads were stopped: 0.6880497 seconds, Stopping threads took: 0.0000162 seconds
-2019-03-15T20:48:28.258+0900: 14.566: Application time: 0.0000271 seconds
-2019-03-15T20:48:28.258+0900: 14.566: [GC (CMS Initial Mark) [1 CMS-initial-mark: 276556K(460928K)] 276556K(696896K), 0.0008892 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-2019-03-15T20:48:28.259+0900: 14.567: Total time for which application threads were stopped: 0.0009393 seconds, Stopping threads took: 0.0000096 seconds
-2019-03-15T20:48:28.259+0900: 14.567: [CMS-concurrent-mark-start]
-2019-03-15T20:48:28.278+0900: 14.586: Application time: 0.0190937 seconds
-2019-03-15T20:48:28.279+0900: 14.586: [Full GC (System.gc()) 2019-03-15T20:48:28.279+0900: 14.586: [CMS2019-03-15T20:48:28.451+0900: 14.759: [CMS-concurrent-mark: 0.191/0.191 secs] [Times: user=0.19 sys=0.00, real=0.19 secs] 
- (concurrent mode interrupted): 276556K->276556K(460928K), 0.8853244 secs] 284811K->276556K(696896K), [Metaspace: 3865K->3865K(1056768K)], 0.8854445 secs] [Times: user=0.84 sys=0.01, real=0.88 secs] 
-2019-03-15T20:48:29.164+0900: 15.472: Total time for which application threads were stopped: 0.8855648 seconds, Stopping threads took: 0.0000174 seconds
-2019-03-15T20:48:29.184+0900: 15.492: Application time: 0.0204027 seconds
-2019-03-15T20:48:29.184+0900: 15.492: [Full GC (System.gc()) 2019-03-15T20:48:29.185+0900: 15.492: [CMS: 276556K->276556K(460928K), 0.6855317 secs] 284811K->276556K(696896K), [Metaspace: 3865K->3865K(1056768K)], 0.6856521 secs] [Times: user=0.62 sys=0.06, real=0.69 secs] 
-2019-03-15T20:48:29.870+0900: 16.178: Total time for which application threads were stopped: 0.6857579 seconds, Stopping threads took: 0.0000162 seconds
-2019-03-15T20:48:29.870+0900: 16.178: Application time: 0.0000989 seconds
-2019-03-15T20:48:29.870+0900: 16.178: [GC (CMS Initial Mark) [1 CMS-initial-mark: 276556K(460928K)] 276556K(696896K), 0.0001117 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-2019-03-15T20:48:29.871+0900: 16.178: Total time for which application threads were stopped: 0.0002637 seconds, Stopping threads took: 0.0000249 seconds
-2019-03-15T20:48:29.871+0900: 16.178: [CMS-concurrent-mark-start]
-2019-03-15T20:48:29.931+0900: 16.238: Application time: 0.0600693 seconds
-2019-03-15T20:48:29.931+0900: 16.238: [Full GC (System.gc()) 2019-03-15T20:48:29.931+0900: 16.238: [CMS2019-03-15T20:48:30.068+0900: 16.376: [CMS-concurrent-mark: 0.198/0.198 secs] [Times: user=0.20 sys=0.00, real=0.20 secs] 
- (concurrent mode interrupted): 276556K->276556K(460928K), 0.8196509 secs] 297193K->276556K(696896K), [Metaspace: 3865K->3865K(1056768K)], 0.8197940 secs] [Times: user=0.80 sys=0.02, real=0.82 secs] 
-2019-03-15T20:48:30.750+0900: 17.058: Total time for which application threads were stopped: 0.8199153 seconds, Stopping threads took: 0.0000199 seconds
-2019-03-15T20:48:30.771+0900: 17.079: Application time: 0.0209990 seconds
-2019-03-15T20:48:30.772+0900: 17.079: [Full GC (System.gc()) 2019-03-15T20:48:30.772+0900: 17.079: [CMS: 276556K->276556K(460928K), 0.6867391 secs] 284811K->276556K(696896K), [Metaspace: 3865K->3865K(1056768K)], 0.6868579 secs] [Times: user=0.62 sys=0.06, real=0.69 secs] 
-2019-03-15T20:48:31.458+0900: 17.766: Total time for which application threads were stopped: 0.6869618 seconds, Stopping threads took: 0.0000165 seconds
-2019-03-15T20:48:31.458+0900: 17.766: Application time: 0.0000392 seconds
-2019-03-15T20:48:31.459+0900: 17.766: [GC (CMS Initial Mark) [1 CMS-initial-mark: 276556K(460928K)] 276556K(696896K), 0.0001328 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-2019-03-15T20:48:31.459+0900: 17.767: Total time for which application threads were stopped: 0.0002165 seconds, Stopping threads took: 0.0000401 seconds
-2019-03-15T20:48:31.459+0900: 17.767: [CMS-concurrent-mark-start]
-2019-03-15T20:48:31.479+0900: 17.787: Application time: 0.0200659 seconds
-2019-03-15T20:48:31.479+0900: 17.787: [Full GC (System.gc()) 2019-03-15T20:48:31.479+0900: 17.787: [CMS2019-03-15T20:48:31.655+0900: 17.962: [CMS-concurrent-mark: 0.196/0.196 secs] [Times: user=0.19 sys=0.00, real=0.20 secs] 
- (concurrent mode interrupted): 276556K->276557K(460928K), 0.8406060 secs] 284811K->276557K(696896K), [Metaspace: 3869K->3869K(1056768K)], 0.8407351 secs] [Times: user=0.83 sys=0.00, real=0.84 secs] 
-2019-03-15T20:48:32.320+0900: 18.627: Total time for which application threads were stopped: 0.8408763 seconds, Stopping threads took: 0.0000345 seconds
-2019-03-15T20:48:32.340+0900: 18.648: Application time: 0.0208537 seconds
-2019-03-15T20:48:32.341+0900: 18.648: [Full GC (System.gc()) 2019-03-15T20:48:32.341+0900: 18.648: [CMS: 276557K->276557K(460928K), 0.7153347 secs] 284811K->276557K(696896K), [Metaspace: 3869K->3869K(1056768K)], 0.7154697 secs] [Times: user=0.66 sys=0.01, real=0.72 secs] 
-2019-03-15T20:48:33.057+0900: 19.364: Total time for which application threads were stopped: 0.7156068 seconds, Stopping threads took: 0.0000162 seconds
-2019-03-15T20:48:33.057+0900: 19.364: Application time: 0.0000305 seconds
-2019-03-15T20:48:33.057+0900: 19.364: [GC (CMS Initial Mark) [1 CMS-initial-mark: 276557K(460928K)] 276557K(696896K), 0.0001107 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-2019-03-15T20:48:33.057+0900: 19.364: Total time for which application threads were stopped: 0.0001636 seconds, Stopping threads took: 0.0000109 seconds
-2019-03-15T20:48:33.057+0900: 19.364: [CMS-concurrent-mark-start]
-2019-03-15T20:48:33.108+0900: 19.415: Application time: 0.0505718 seconds
-2019-03-15T20:48:33.108+0900: 19.415: [Full GC (System.gc()) 2019-03-15T20:48:33.108+0900: 19.415: [CMS2019-03-15T20:48:33.247+0900: 19.554: [CMS-concurrent-mark: 0.190/0.190 secs] [Times: user=0.19 sys=0.00, real=0.19 secs] 
- (concurrent mode interrupted): 276557K->276557K(460928K), 0.8162502 secs] 293066K->276557K(696896K), [Metaspace: 3869K->3869K(1056768K)], 0.8163883 secs] [Times: user=0.80 sys=0.00, real=0.82 secs] 
-2019-03-15T20:48:33.924+0900: 20.231: Total time for which application threads were stopped: 0.8165202 seconds, Stopping threads took: 0.0000255 seconds
-2019-03-15T20:48:34.023+0900: 20.330: Application time: 0.0990252 seconds
-2019-03-15T20:48:34.023+0900: 20.330: [Full GC (System.gc()) 2019-03-15T20:48:34.023+0900: 20.330: [CMS: 276557K->276557K(460928K), 0.6788893 secs] 297193K->276557K(696896K), [Metaspace: 3869K->3869K(1056768K)], 0.6790218 secs] [Times: user=0.65 sys=0.03, real=0.68 secs] 
-2019-03-15T20:48:34.702+0900: 21.009: Total time for which application threads were stopped: 0.6791369 seconds, Stopping threads took: 0.0000180 seconds
-2019-03-15T20:48:34.702+0900: 21.009: Application time: 0.0000457 seconds
-2019-03-15T20:48:34.702+0900: 21.009: [GC (CMS Initial Mark) [1 CMS-initial-mark: 276557K(460928K)] 276557K(696896K), 0.0001278 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-2019-03-15T20:48:34.703+0900: 21.010: Total time for which application threads were stopped: 0.0001788 seconds, Stopping threads took: 0.0000109 seconds
-2019-03-15T20:48:34.703+0900: 21.010: [CMS-concurrent-mark-start]
-2019-03-15T20:48:34.731+0900: 21.038: Application time: 0.0283698 seconds
-2019-03-15T20:48:34.731+0900: 21.038: [Full GC (System.gc()) 2019-03-15T20:48:34.731+0900: 21.038: [CMS2019-03-15T20:48:34.938+0900: 21.245: [CMS-concurrent-mark: 0.235/0.236 secs] [Times: user=0.19 sys=0.00, real=0.24 secs] 
- (concurrent mode interrupted): 276557K->276557K(460928K), 0.8651531 secs] 284811K->276557K(696896K), [Metaspace: 3869K->3869K(1056768K)], 0.8652992 secs] [Times: user=0.80 sys=0.03, real=0.87 secs] 
-2019-03-15T20:48:35.596+0900: 21.903: Total time for which application threads were stopped: 0.8654199 seconds, Stopping threads took: 0.0000205 seconds
-2019-03-15T20:48:35.646+0900: 21.953: Application time: 0.0500626 seconds
-2019-03-15T20:48:35.647+0900: 21.954: [Full GC (System.gc()) 2019-03-15T20:48:35.647+0900: 21.954: [CMS: 276557K->276557K(460928K), 0.6581062 secs] 293066K->276557K(696896K), [Metaspace: 3869K->3869K(1056768K)], 0.6582309 secs] [Times: user=0.62 sys=0.03, real=0.66 secs] 
-2019-03-15T20:48:36.305+0900: 22.612: Total time for which application threads were stopped: 0.6583336 seconds, Stopping threads took: 0.0000156 seconds
-2019-03-15T20:48:36.305+0900: 22.612: Application time: 0.0006248 seconds
-2019-03-15T20:48:36.305+0900: 22.612: [GC (CMS Initial Mark) [1 CMS-initial-mark: 276557K(460928K)] 276557K(696896K), 0.0001928 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-2019-03-15T20:48:36.306+0900: 22.613: Total time for which application threads were stopped: 0.0002463 seconds, Stopping threads took: 0.0000093 seconds
-2019-03-15T20:48:36.306+0900: 22.613: [CMS-concurrent-mark-start]
-2019-03-15T20:48:36.326+0900: 22.633: Application time: 0.0200233 seconds
-2019-03-15T20:48:36.326+0900: 22.633: [Full GC (System.gc()) 2019-03-15T20:48:36.326+0900: 22.633: [CMS2019-03-15T20:48:36.493+0900: 22.800: [CMS-concurrent-mark: 0.187/0.187 secs] [Times: user=0.19 sys=0.00, real=0.19 secs] 
- (concurrent mode interrupted): 276557K->276557K(460928K), 1.0166562 secs] 284811K->276557K(696896K), [Metaspace: 3869K->3869K(1056768K)], 1.0167981 secs] [Times: user=0.73 sys=0.05, real=1.02 secs] 
-2019-03-15T20:48:37.343+0900: 23.650: Total time for which application threads were stopped: 1.0170624 seconds, Stopping threads took: 0.0000184 seconds
-2019-03-15T20:48:37.384+0900: 23.692: Application time: 0.0417740 seconds
-2019-03-15T20:48:37.385+0900: 23.692: [Full GC (System.gc()) 2019-03-15T20:48:37.385+0900: 23.692: [CMS: 276557K->276557K(460928K), 0.7352638 secs] 288939K->276557K(696896K), [Metaspace: 3869K->3869K(1056768K)], 0.7353804 secs] [Times: user=0.59 sys=0.03, real=0.73 secs] 
-2019-03-15T20:48:38.120+0900: 24.427: Total time for which application threads were stopped: 0.7354827 seconds, Stopping threads took: 0.0000187 seconds
-2019-03-15T20:48:38.120+0900: 24.427: Application time: 0.0000283 seconds
-2019-03-15T20:48:38.120+0900: 24.427: [GC (CMS Initial Mark) [1 CMS-initial-mark: 276557K(460928K)] 276557K(696896K), 0.0000945 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-2019-03-15T20:48:38.120+0900: 24.427: Total time for which application threads were stopped: 0.0001431 seconds, Stopping threads took: 0.0000093 seconds
-2019-03-15T20:48:38.120+0900: 24.427: [CMS-concurrent-mark-start]
-2019-03-15T20:48:38.140+0900: 24.448: Application time: 0.0203884 seconds
-2019-03-15T20:48:38.141+0900: 24.448: [Full GC (System.gc()) 2019-03-15T20:48:38.141+0900: 24.448: [CMS2019-03-15T20:48:38.305+0900: 24.612: [CMS-concurrent-mark: 0.185/0.185 secs] [Times: user=0.19 sys=0.00, real=0.19 secs] 
- (concurrent mode interrupted): 276557K->276557K(460928K), 0.9671108 secs] 284811K->276557K(696896K), [Metaspace: 3869K->3869K(1056768K)], 0.9672573 secs] [Times: user=0.78 sys=0.02, real=0.97 secs] 
-2019-03-15T20:48:39.108+0900: 25.415: Total time for which application threads were stopped: 0.9673749 seconds, Stopping threads took: 0.0000261 seconds
-2019-03-15T20:48:39.139+0900: 25.446: Application time: 0.0307323 seconds
-2019-03-15T20:48:39.139+0900: 25.446: [Full GC (System.gc()) 2019-03-15T20:48:39.139+0900: 25.446: [CMS: 276557K->276557K(460928K), 0.6775513 secs] 288939K->276557K(696896K), [Metaspace: 3870K->3870K(1056768K)], 0.6776639 secs] [Times: user=0.61 sys=0.02, real=0.68 secs] 
-2019-03-15T20:48:39.816+0900: 26.123: Total time for which application threads were stopped: 0.6777687 seconds, Stopping threads took: 0.0000162 seconds
-2019-03-15T20:48:39.816+0900: 26.124: Application time: 0.0000439 seconds
-2019-03-15T20:48:39.816+0900: 26.124: [GC (CMS Initial Mark) [1 CMS-initial-mark: 276557K(460928K)] 276557K(696896K), 0.0000902 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-2019-03-15T20:48:39.816+0900: 26.124: Total time for which application threads were stopped: 0.0001272 seconds, Stopping threads took: 0.0000081 seconds
-2019-03-15T20:48:39.816+0900: 26.124: [CMS-concurrent-mark-start]
-2019-03-15T20:48:39.849+0900: 26.156: Application time: 0.0323695 seconds
-2019-03-15T20:48:39.849+0900: 26.156: [Full GC (System.gc()) 2019-03-15T20:48:39.849+0900: 26.156: [CMS2019-03-15T20:48:40.023+0900: 26.330: [CMS-concurrent-mark: 0.206/0.206 secs] [Times: user=0.22 sys=0.00, real=0.21 secs] 
- (concurrent mode interrupted): 276557K->276557K(460928K), 0.8138196 secs] 288939K->276557K(696896K), [Metaspace: 3870K->3870K(1056768K)], 0.8139832 secs] [Times: user=0.75 sys=0.02, real=0.81 secs] 
-2019-03-15T20:48:40.663+0900: 26.970: Total time for which application threads were stopped: 0.8140915 seconds, Stopping threads took: 0.0000180 seconds
-2019-03-15T20:48:40.688+0900: 26.995: Application time: 0.0253653 seconds
-2019-03-15T20:48:40.688+0900: 26.996: [Full GC (System.gc()) 2019-03-15T20:48:40.688+0900: 26.996: [CMS: 276557K->276557K(460928K), 0.6685968 secs] 284811K->276557K(696896K), [Metaspace: 3870K->3870K(1056768K)], 0.6687384 secs] [Times: user=0.58 sys=0.03, real=0.67 secs] 
-2019-03-15T20:48:41.357+0900: 27.664: Total time for which application threads were stopped: 0.6688824 seconds, Stopping threads took: 0.0000193 seconds
-2019-03-15T20:48:41.357+0900: 27.664: Application time: 0.0000286 seconds
-2019-03-15T20:48:41.357+0900: 27.664: [GC (CMS Initial Mark) [1 CMS-initial-mark: 276557K(460928K)] 276557K(696896K), 0.0001574 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-2019-03-15T20:48:41.357+0900: 27.665: Total time for which application threads were stopped: 0.0002435 seconds, Stopping threads took: 0.0000398 seconds
-2019-03-15T20:48:41.357+0900: 27.665: [CMS-concurrent-mark-start]
-2019-03-15T20:48:41.389+0900: 27.696: Application time: 0.0311963 seconds
-2019-03-15T20:48:41.389+0900: 27.696: [Full GC (System.gc()) 2019-03-15T20:48:41.389+0900: 27.696: [CMS2019-03-15T20:48:41.542+0900: 27.849: [CMS-concurrent-mark: 0.184/0.184 secs] [Times: user=0.19 sys=0.00, real=0.18 secs] 
- (concurrent mode interrupted): 276557K->276557K(460928K), 0.7724185 secs] 288939K->276557K(696896K), [Metaspace: 3870K->3870K(1056768K)], 0.7725523 secs] [Times: user=0.78 sys=0.00, real=0.77 secs] 
-2019-03-15T20:48:42.161+0900: 28.469: Total time for which application threads were stopped: 0.7726624 seconds, Stopping threads took: 0.0000168 seconds
-2019-03-15T20:48:42.191+0900: 28.499: Application time: 0.0302094 seconds
-2019-03-15T20:48:42.192+0900: 28.499: [Full GC (System.gc()) 2019-03-15T20:48:42.192+0900: 28.499: [CMS: 276557K->276557K(460928K), 0.6118526 secs] 288939K->276557K(696896K), [Metaspace: 3870K->3870K(1056768K)], 0.6119798 secs] [Times: user=0.59 sys=0.02, real=0.61 secs] 
-2019-03-15T20:48:42.804+0900: 29.111: Total time for which application threads were stopped: 0.6121325 seconds, Stopping threads took: 0.0000336 seconds
-2019-03-15T20:48:42.804+0900: 29.111: Application time: 0.0000367 seconds
-2019-03-15T20:48:42.804+0900: 29.111: [GC (CMS Initial Mark) [1 CMS-initial-mark: 276557K(460928K)] 276557K(696896K), 0.0001253 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-2019-03-15T20:48:42.804+0900: 29.111: Total time for which application threads were stopped: 0.0002190 seconds, Stopping threads took: 0.0000417 seconds
-2019-03-15T20:48:42.804+0900: 29.111: [CMS-concurrent-mark-start]
-2019-03-15T20:48:42.825+0900: 29.132: Application time: 0.0207284 seconds
-2019-03-15T20:48:42.825+0900: 29.132: [Full GC (System.gc()) 2019-03-15T20:48:42.825+0900: 29.132: [CMS2019-03-15T20:48:42.988+0900: 29.295: [CMS-concurrent-mark: 0.184/0.184 secs] [Times: user=0.19 sys=0.00, real=0.18 secs] 
- (concurrent mode interrupted): 276557K->276557K(460928K), 0.7822809 secs] 284812K->276557K(696896K), [Metaspace: 3870K->3870K(1056768K)], 0.7824302 secs] [Times: user=0.73 sys=0.03, real=0.78 secs] 
-2019-03-15T20:48:43.607+0900: 29.915: Total time for which application threads were stopped: 0.7826470 seconds, Stopping threads took: 0.0001067 seconds
-2019-03-15T20:48:43.647+0900: 29.955: Application time: 0.0403629 seconds
-2019-03-15T20:48:43.648+0900: 29.955: [Full GC (System.gc()) 2019-03-15T20:48:43.648+0900: 29.955: [CMS: 276557K->276557K(460928K), 0.6273068 secs] 288939K->276557K(696896K), [Metaspace: 3871K->3871K(1056768K)], 0.6274517 secs] [Times: user=0.61 sys=0.01, real=0.63 secs] 
-2019-03-15T20:48:44.275+0900: 30.582: Total time for which application threads were stopped: 0.6275907 seconds, Stopping threads took: 0.0000193 seconds
-2019-03-15T20:48:44.275+0900: 30.582: Application time: 0.0000323 seconds
-2019-03-15T20:48:44.275+0900: 30.583: [GC (CMS Initial Mark) [1 CMS-initial-mark: 276557K(460928K)] 276557K(696896K), 0.0001624 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-2019-03-15T20:48:44.275+0900: 30.583: Total time for which application threads were stopped: 0.0002401 seconds, Stopping threads took: 0.0000115 seconds
-2019-03-15T20:48:44.275+0900: 30.583: [CMS-concurrent-mark-start]
-2019-03-15T20:48:44.296+0900: 30.603: Application time: 0.0204124 seconds
-2019-03-15T20:48:44.296+0900: 30.603: [Full GC (System.gc()) 2019-03-15T20:48:44.296+0900: 30.603: [CMS2019-03-15T20:48:44.465+0900: 30.772: [CMS-concurrent-mark: 0.189/0.190 secs] [Times: user=0.19 sys=0.00, real=0.19 secs] 
- (concurrent mode interrupted): 276557K->276557K(460928K), 0.7796466 secs] 284812K->276557K(696896K), [Metaspace: 3871K->3871K(1056768K)], 0.7797819 secs] [Times: user=0.75 sys=0.03, real=0.78 secs] 
-2019-03-15T20:48:45.076+0900: 31.383: Total time for which application threads were stopped: 0.7799004 seconds, Stopping threads took: 0.0000165 seconds
-2019-03-15T20:48:45.096+0900: 31.404: Application time: 0.0208170 seconds
-2019-03-15T20:48:45.097+0900: 31.404: [Full GC (System.gc()) 2019-03-15T20:48:45.097+0900: 31.404: [CMS: 276557K->276557K(460928K), 0.5947803 secs] 285090K->276557K(696896K), [Metaspace: 3871K->3871K(1056768K)], 0.5949115 secs] [Times: user=0.56 sys=0.03, real=0.59 secs] 
-2019-03-15T20:48:45.691+0900: 31.999: Total time for which application threads were stopped: 0.5950260 seconds, Stopping threads took: 0.0000299 seconds
-2019-03-15T20:48:45.692+0900: 31.999: Application time: 0.0001166 seconds
-2019-03-15T20:48:45.692+0900: 31.999: [GC (CMS Initial Mark) [1 CMS-initial-mark: 276557K(460928K)] 276557K(696896K), 0.0001319 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-2019-03-15T20:48:45.692+0900: 31.999: Total time for which application threads were stopped: 0.0002914 seconds, Stopping threads took: 0.0000383 seconds
-2019-03-15T20:48:45.692+0900: 31.999: [CMS-concurrent-mark-start]
-2019-03-15T20:48:45.712+0900: 32.019: Application time: 0.0196790 seconds
-2019-03-15T20:48:45.712+0900: 32.019: [Full GC (System.gc()) 2019-03-15T20:48:45.712+0900: 32.019: [CMS2019-03-15T20:48:45.873+0900: 32.181: [CMS-concurrent-mark: 0.181/0.182 secs] [Times: user=0.19 sys=0.00, real=0.18 secs] 
- (concurrent mode interrupted): 276557K->276557K(460928K), 0.7544899 secs] 285090K->276557K(696896K), [Metaspace: 3872K->3872K(1056768K)], 0.7546072 secs] [Times: user=0.76 sys=0.00, real=0.75 secs] 
-2019-03-15T20:48:46.466+0900: 32.774: Total time for which application threads were stopped: 0.7548087 seconds, Stopping threads took: 0.0001148 seconds
-2019-03-15T20:48:46.516+0900: 32.824: Application time: 0.0501674 seconds
-2019-03-15T20:48:46.517+0900: 32.824: [Full GC (System.gc()) 2019-03-15T20:48:46.517+0900: 32.824: [CMS: 276557K->276557K(460928K), 0.6275820 secs] 293638K->276557K(696896K), [Metaspace: 3872K->3872K(1056768K)], 0.6277018 secs] [Times: user=0.61 sys=0.02, real=0.63 secs] 
-2019-03-15T20:48:47.144+0900: 33.452: Total time for which application threads were stopped: 0.6278343 seconds, Stopping threads took: 0.0000323 seconds
-2019-03-15T20:48:47.144+0900: 33.452: Application time: 0.0000345 seconds
-2019-03-15T20:48:47.144+0900: 33.452: [GC (CMS Initial Mark) [1 CMS-initial-mark: 276557K(460928K)] 276557K(696896K), 0.0001079 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-2019-03-15T20:48:47.145+0900: 33.452: Total time for which application threads were stopped: 0.0002009 seconds, Stopping threads took: 0.0000264 seconds
-2019-03-15T20:48:47.145+0900: 33.452: [CMS-concurrent-mark-start]
-2019-03-15T20:48:47.164+0900: 33.472: Application time: 0.0198398 seconds
-2019-03-15T20:48:47.164+0900: 33.472: [Full GC (System.gc()) 2019-03-15T20:48:47.164+0900: 33.472: [CMS2019-03-15T20:48:47.324+0900: 33.631: [CMS-concurrent-mark: 0.179/0.179 secs] [Times: user=0.19 sys=0.00, real=0.18 secs] 
- (concurrent mode interrupted): 276557K->276557K(460928K), 0.7526723 secs] 285090K->276557K(696896K), [Metaspace: 3872K->3872K(1056768K)], 0.7527902 secs] [Times: user=0.75 sys=0.02, real=0.75 secs] 
-2019-03-15T20:48:47.917+0900: 34.225: Total time for which application threads were stopped: 0.7529115 seconds, Stopping threads took: 0.0000348 seconds
-2019-03-15T20:48:47.947+0900: 34.255: Application time: 0.0301746 seconds
-2019-03-15T20:48:47.947+0900: 34.255: [Full GC (System.gc()) 2019-03-15T20:48:47.948+0900: 34.255: [CMS: 276557K->276557K(460928K), 0.6150866 secs] 285090K->276557K(696896K), [Metaspace: 3872K->3872K(1056768K)], 0.6152200 secs] [Times: user=0.59 sys=0.02, real=0.62 secs] 
-2019-03-15T20:48:48.563+0900: 34.870: Total time for which application threads were stopped: 0.6153310 seconds, Stopping threads took: 0.0000286 seconds
-2019-03-15T20:48:48.563+0900: 34.870: Application time: 0.0000569 seconds
-2019-03-15T20:48:48.563+0900: 34.870: [GC (CMS Initial Mark) [1 CMS-initial-mark: 276557K(460928K)] 276557K(696896K), 0.0000986 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-2019-03-15T20:48:48.563+0900: 34.871: Total time for which application threads were stopped: 0.0001359 seconds, Stopping threads took: 0.0000084 seconds
-2019-03-15T20:48:48.563+0900: 34.871: [CMS-concurrent-mark-start]
-2019-03-15T20:48:48.623+0900: 34.931: Application time: 0.0604693 seconds
-2019-03-15T20:48:48.623+0900: 34.931: [Full GC (System.gc()) 2019-03-15T20:48:48.624+0900: 34.931: [CMS2019-03-15T20:48:48.744+0900: 35.051: [CMS-concurrent-mark: 0.180/0.181 secs] [Times: user=0.19 sys=0.00, real=0.18 secs] 
- (concurrent mode interrupted): 276557K->276557K(460928K), 0.7257615 secs] 293638K->276557K(696896K), [Metaspace: 3872K->3872K(1056768K)], 0.7258975 secs] [Times: user=0.70 sys=0.03, real=0.73 secs] 
-2019-03-15T20:48:49.349+0900: 35.657: Total time for which application threads were stopped: 0.7260203 seconds, Stopping threads took: 0.0000345 seconds
-2019-03-15T20:48:49.401+0900: 35.708: Application time: 0.0513652 seconds
-2019-03-15T20:48:49.401+0900: 35.709: [Full GC (System.gc()) 2019-03-15T20:48:49.401+0900: 35.709: [CMS: 276557K->276557K(460928K), 0.6150524 secs] 293638K->276557K(696896K), [Metaspace: 3872K->3872K(1056768K)], 0.6152054 secs] [Times: user=0.61 sys=0.00, real=0.62 secs] 
-2019-03-15T20:48:50.016+0900: 36.324: Total time for which application threads were stopped: 0.6153718 seconds, Stopping threads took: 0.0000557 seconds
-2019-03-15T20:48:50.016+0900: 36.324: Application time: 0.0000355 seconds
-2019-03-15T20:48:50.016+0900: 36.324: [GC (CMS Initial Mark) [1 CMS-initial-mark: 276557K(460928K)] 276557K(696896K), 0.0001185 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-2019-03-15T20:48:50.016+0900: 36.324: Total time for which application threads were stopped: 0.0001953 seconds, Stopping threads took: 0.0000401 seconds
-2019-03-15T20:48:50.016+0900: 36.324: [CMS-concurrent-mark-start]
-2019-03-15T20:48:50.046+0900: 36.354: Application time: 0.0301093 seconds
-2019-03-15T20:48:50.047+0900: 36.354: [Full GC (System.gc()) 2019-03-15T20:48:50.047+0900: 36.354: [CMS2019-03-15T20:48:50.197+0900: 36.505: [CMS-concurrent-mark: 0.181/0.181 secs] [Times: user=0.19 sys=0.00, real=0.18 secs] 
- (concurrent mode interrupted): 276557K->276557K(460928K), 0.7498359 secs] 285090K->276557K(696896K), [Metaspace: 3872K->3872K(1056768K)], 0.7500760 secs] [Times: user=0.72 sys=0.03, real=0.75 secs] 
-2019-03-15T20:48:50.798+0900: 37.104: Total time for which application threads were stopped: 0.7502386 seconds, Stopping threads took: 0.0000339 seconds
-2019-03-15T20:48:50.839+0900: 37.146: Application time: 0.0417165 seconds
-2019-03-15T20:48:50.840+0900: 37.146: [Full GC (System.gc()) 2019-03-15T20:48:50.840+0900: 37.146: [CMS: 276557K->276557K(460928K), 0.6194169 secs] 289233K->276557K(696896K), [Metaspace: 3872K->3872K(1056768K)], 0.6195568 secs] [Times: user=0.61 sys=0.02, real=0.62 secs] 
-2019-03-15T20:48:51.459+0900: 37.766: Total time for which application threads were stopped: 0.6197313 seconds, Stopping threads took: 0.0000631 seconds
-2019-03-15T20:48:51.459+0900: 37.766: Application time: 0.0000280 seconds
-2019-03-15T20:48:51.459+0900: 37.766: [GC (CMS Initial Mark) [1 CMS-initial-mark: 276557K(460928K)] 276557K(696896K), 0.0000983 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-2019-03-15T20:48:51.459+0900: 37.766: Total time for which application threads were stopped: 0.0001412 seconds, Stopping threads took: 0.0000096 seconds
-2019-03-15T20:48:51.459+0900: 37.766: [CMS-concurrent-mark-start]
-2019-03-15T20:48:51.489+0900: 37.796: Application time: 0.0301538 seconds
-2019-03-15T20:48:51.489+0900: 37.796: [Full GC (System.gc()) 2019-03-15T20:48:51.490+0900: 37.796: [CMS2019-03-15T20:48:51.638+0900: 37.945: [CMS-concurrent-mark: 0.179/0.179 secs] [Times: user=0.16 sys=0.00, real=0.18 secs] 
- (concurrent mode interrupted): 276557K->276557K(460928K), 0.7991066 secs] 285090K->276557K(696896K), [Metaspace: 3872K->3872K(1056768K)], 0.7992298 secs] [Times: user=0.73 sys=0.02, real=0.80 secs] 
-2019-03-15T20:48:52.289+0900: 38.595: Total time for which application threads were stopped: 0.7993287 seconds, Stopping threads took: 0.0000168 seconds
-2019-03-15T20:48:52.309+0900: 38.616: Application time: 0.0206861 seconds
-2019-03-15T20:48:52.309+0900: 38.616: [Full GC (System.gc()) 2019-03-15T20:48:52.309+0900: 38.616: [CMS: 276557K->276557K(460928K), 0.5437507 secs] 285090K->276557K(696896K), [Metaspace: 3872K->3872K(1056768K)], 0.5438754 secs] [Times: user=0.55 sys=0.00, real=0.54 secs] 
-2019-03-15T20:48:52.853+0900: 39.160: Total time for which application threads were stopped: 0.5439855 seconds, Stopping threads took: 0.0000162 seconds
-2019-03-15T20:48:52.854+0900: 39.161: Application time: 0.0007629 seconds
-2019-03-15T20:48:52.854+0900: 39.161: [GC (CMS Initial Mark) [1 CMS-initial-mark: 276557K(460928K)] 276557K(696896K), 0.0001182 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-2019-03-15T20:48:52.854+0900: 39.161: Total time for which application threads were stopped: 0.0001729 seconds, Stopping threads took: 0.0000128 seconds
-2019-03-15T20:48:52.854+0900: 39.161: [CMS-concurrent-mark-start]
-2019-03-15T20:48:52.907+0900: 39.214: Application time: 0.0528070 seconds
-2019-03-15T20:48:52.907+0900: 39.214: [Full GC (System.gc()) 2019-03-15T20:48:52.907+0900: 39.214: [CMS2019-03-15T20:48:53.034+0900: 39.341: [CMS-concurrent-mark: 0.179/0.180 secs] [Times: user=0.20 sys=0.00, real=0.18 secs] 
- (concurrent mode interrupted): 276557K->276557K(460928K), 0.6803371 secs] 289233K->276557K(696896K), [Metaspace: 3872K->3872K(1056768K)], 0.6805017 secs] [Times: user=0.64 sys=0.02, real=0.68 secs] 
-2019-03-15T20:48:53.588+0900: 39.895: Total time for which application threads were stopped: 0.6806267 seconds, Stopping threads took: 0.0000286 seconds
-2019-03-15T20:48:53.640+0900: 39.947: Application time: 0.0526948 seconds
-2019-03-15T20:48:53.640+0900: 39.947: [Full GC (System.gc()) 2019-03-15T20:48:53.640+0900: 39.947: [CMS: 276557K->276557K(460928K), 0.5496762 secs] 293638K->276557K(696896K), [Metaspace: 3874K->3874K(1056768K)], 0.5497894 secs] [Times: user=0.53 sys=0.01, real=0.55 secs] 
-2019-03-15T20:48:54.190+0900: 40.497: Total time for which application threads were stopped: 0.5498855 seconds, Stopping threads took: 0.0000165 seconds
-2019-03-15T20:48:54.190+0900: 40.497: Application time: 0.0000261 seconds
-2019-03-15T20:48:54.190+0900: 40.497: [GC (CMS Initial Mark) [1 CMS-initial-mark: 276557K(460928K)] 276557K(696896K), 0.0001169 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-2019-03-15T20:48:54.190+0900: 40.497: Total time for which application threads were stopped: 0.0001922 seconds, Stopping threads took: 0.0000367 seconds
-2019-03-15T20:48:54.190+0900: 40.497: [CMS-concurrent-mark-start]
-2019-03-15T20:48:54.222+0900: 40.529: Application time: 0.0312859 seconds
-2019-03-15T20:48:54.222+0900: 40.529: [Full GC (System.gc()) 2019-03-15T20:48:54.222+0900: 40.529: [CMS2019-03-15T20:48:54.375+0900: 40.682: [CMS-concurrent-mark: 0.184/0.184 secs] [Times: user=0.19 sys=0.00, real=0.18 secs] 
- (concurrent mode interrupted): 276557K->276557K(460928K), 0.6475945 secs] 285090K->276557K(696896K), [Metaspace: 3874K->3874K(1056768K)], 0.6477468 secs] [Times: user=0.61 sys=0.03, real=0.65 secs] 
-2019-03-15T20:48:54.870+0900: 41.177: Total time for which application threads were stopped: 0.6479027 seconds, Stopping threads took: 0.0000376 seconds
-2019-03-15T20:48:54.890+0900: 41.197: Application time: 0.0207458 seconds
-2019-03-15T20:48:54.891+0900: 41.197: [Full GC (System.gc()) 2019-03-15T20:48:54.891+0900: 41.197: [CMS: 276557K->276557K(460928K), 0.4959501 secs] 285090K->276557K(696896K), [Metaspace: 3874K->3874K(1056768K)], 0.4960969 secs] [Times: user=0.45 sys=0.05, real=0.50 secs] 
-2019-03-15T20:48:55.387+0900: 41.694: Total time for which application threads were stopped: 0.4962785 seconds, Stopping threads took: 0.0000613 seconds
-2019-03-15T20:48:55.387+0900: 41.694: Application time: 0.0000476 seconds
-2019-03-15T20:48:55.387+0900: 41.694: [GC (CMS Initial Mark) [1 CMS-initial-mark: 276557K(460928K)] 276557K(696896K), 0.0001229 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-2019-03-15T20:48:55.387+0900: 41.694: Total time for which application threads were stopped: 0.0002019 seconds, Stopping threads took: 0.0000376 seconds
-2019-03-15T20:48:55.387+0900: 41.694: [CMS-concurrent-mark-start]
-2019-03-15T20:48:55.438+0900: 41.745: Application time: 0.0515589 seconds
-2019-03-15T20:48:55.439+0900: 41.745: [Full GC (System.gc()) 2019-03-15T20:48:55.439+0900: 41.745: [CMS2019-03-15T20:48:55.565+0900: 41.871: [CMS-concurrent-mark: 0.178/0.178 secs] [Times: user=0.17 sys=0.00, real=0.18 secs] 
- (concurrent mode interrupted): 276557K->276557K(460928K), 0.6199453 secs] 293638K->276557K(696896K), [Metaspace: 3874K->3874K(1056768K)], 0.6200881 secs] [Times: user=0.59 sys=0.03, real=0.62 secs] 
-2019-03-15T20:48:56.059+0900: 42.366: Total time for which application threads were stopped: 0.6202041 seconds, Stopping threads took: 0.0000233 seconds
-2019-03-15T20:48:56.089+0900: 42.396: Application time: 0.0307428 seconds
-2019-03-15T20:48:56.089+0900: 42.396: [Full GC (System.gc()) 2019-03-15T20:48:56.090+0900: 42.396: [CMS: 276557K->276557K(460928K), 0.4972262 secs] 285090K->276557K(696896K), [Metaspace: 3874K->3874K(1056768K)], 0.4973605 secs] [Times: user=0.45 sys=0.03, real=0.50 secs] 
-2019-03-15T20:48:56.587+0900: 42.894: Total time for which application threads were stopped: 0.4974716 seconds, Stopping threads took: 0.0000299 seconds
-2019-03-15T20:48:56.587+0900: 42.894: Application time: 0.0000395 seconds
-2019-03-15T20:48:56.587+0900: 42.894: [GC (CMS Initial Mark) [1 CMS-initial-mark: 276557K(460928K)] 276557K(696896K), 0.0001281 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-2019-03-15T20:48:56.587+0900: 42.894: Total time for which application threads were stopped: 0.0002065 seconds, Stopping threads took: 0.0000355 seconds
-2019-03-15T20:48:56.587+0900: 42.894: [CMS-concurrent-mark-start]
-2019-03-15T20:48:56.647+0900: 42.954: Application time: 0.0603334 seconds
-2019-03-15T20:48:56.648+0900: 42.954: [Full GC (System.gc()) 2019-03-15T20:48:56.648+0900: 42.955: [CMS2019-03-15T20:48:56.764+0900: 43.071: [CMS-concurrent-mark: 0.177/0.177 secs] [Times: user=0.19 sys=0.00, real=0.18 secs] 
- (concurrent mode interrupted): 276557K->276557K(460928K), 0.6208168 secs] 293638K->276557K(696896K), [Metaspace: 3875K->3875K(1056768K)], 0.6209486 secs] [Times: user=0.62 sys=0.00, real=0.62 secs] 
-2019-03-15T20:48:57.268+0900: 43.575: Total time for which application threads were stopped: 0.6210731 seconds, Stopping threads took: 0.0000339 seconds
-2019-03-15T20:48:57.321+0900: 43.628: Application time: 0.0521663 seconds
-2019-03-15T20:48:57.321+0900: 43.628: [Full GC (System.gc()) 2019-03-15T20:48:57.321+0900: 43.628: [CMS
+2019-03-15T21:33:52.036+0900: 0.917: Application time: 0.8496793 seconds
+2019-03-15T21:33:52.036+0900: 0.917: [GC (Allocation Failure) 2019-03-15T21:33:52.036+0900: 0.917: [ParNew: 209792K->26176K(235968K), 0.7397542 secs] 209792K->190545K(400608K), 0.7399278 secs] [Times: user=2.46 sys=0.19, real=0.74 secs] 
+2019-03-15T21:33:52.776+0900: 1.657: Total time for which application threads were stopped: 0.7400537 seconds, Stopping threads took: 0.0000146 seconds
+2019-03-15T21:33:52.776+0900: 1.657: Application time: 0.0000358 seconds
+2019-03-15T21:33:52.776+0900: 1.657: [GC (CMS Initial Mark) [1 CMS-initial-mark: 164369K(164640K)] 190730K(400608K), 0.0052889 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2019-03-15T21:33:52.782+0900: 1.662: Total time for which application threads were stopped: 0.0053927 seconds, Stopping threads took: 0.0000370 seconds
+2019-03-15T21:33:52.782+0900: 1.662: [CMS-concurrent-mark-start]
+2019-03-15T21:33:52.953+0900: 1.834: [CMS-concurrent-mark: 0.172/0.172 secs] [Times: user=0.19 sys=0.00, real=0.17 secs] 
+2019-03-15T21:33:52.953+0900: 1.834: [CMS-concurrent-preclean-start]
+2019-03-15T21:33:52.953+0900: 1.834: [CMS-concurrent-preclean: 0.000/0.000 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2019-03-15T21:33:52.953+0900: 1.834: [CMS-concurrent-abortable-preclean-start]
+2019-03-15T21:33:53.592+0900: 2.473: Application time: 0.8106305 seconds
+2019-03-15T21:33:53.592+0900: 2.473: [GC (Allocation Failure) 2019-03-15T21:33:53.592+0900: 2.473: [ParNew2019-03-15T21:33:53.650+0900: 2.531: [CMS-concurrent-abortable-preclean: 0.497/0.696 secs] [Times: user=0.73 sys=0.01, real=0.70 secs] 
+: 235968K->26176K(235968K), 0.2784832 secs] 400337K->395527K(606024K), 0.2785569 secs] [Times: user=1.00 sys=0.06, real=0.28 secs] 
+2019-03-15T21:33:53.871+0900: 2.751: Total time for which application threads were stopped: 0.2786630 seconds, Stopping threads took: 0.0000159 seconds
+2019-03-15T21:33:53.871+0900: 2.751: Application time: 0.0000255 seconds
+2019-03-15T21:33:53.871+0900: 2.751: [GC (CMS Final Remark) [YG occupancy: 26592 K (235968 K)]2019-03-15T21:33:53.871+0900: 2.751: [Rescan (parallel) , 0.0465232 secs]2019-03-15T21:33:53.918+0900: 2.798: [weak refs processing, 0.0000211 secs]2019-03-15T21:33:53.918+0900: 2.798: [class unloading, 0.0003648 secs]2019-03-15T21:33:53.918+0900: 2.798: [scrub symbol table, 0.0004357 secs]2019-03-15T21:33:53.918+0900: 2.799: [scrub string table, 0.0001039 secs][1 CMS-remark: 369351K(370056K)] 395944K(606024K), 0.0475885 secs] [Times: user=0.19 sys=0.00, real=0.05 secs] 
+2019-03-15T21:33:53.919+0900: 2.799: Total time for which application threads were stopped: 0.0476933 seconds, Stopping threads took: 0.0000572 seconds
+2019-03-15T21:33:53.919+0900: 2.799: [CMS-concurrent-sweep-start]
+2019-03-15T21:33:53.974+0900: 2.855: [CMS-concurrent-sweep: 0.055/0.055 secs] [Times: user=0.06 sys=0.00, real=0.06 secs] 
+2019-03-15T21:33:53.975+0900: 2.855: [CMS-concurrent-reset-start]
+2019-03-15T21:33:53.975+0900: 2.856: [CMS-concurrent-reset: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2019-03-15T21:33:54.776+0900: 3.657: Application time: 0.8575422 seconds
+2019-03-15T21:33:54.776+0900: 3.657: [GC (Allocation Failure) 2019-03-15T21:33:54.776+0900: 3.657: [ParNew: 235968K->26176K(235968K), 0.2478082 secs] 605319K->601758K(851556K), 0.2479205 secs] [Times: user=0.86 sys=0.05, real=0.25 secs] 
+2019-03-15T21:33:55.024+0900: 3.905: Total time for which application threads were stopped: 0.2481764 seconds, Stopping threads took: 0.0000435 seconds
+2019-03-15T21:33:55.024+0900: 3.905: Application time: 0.0000311 seconds
+2019-03-15T21:33:55.024+0900: 3.905: [GC (CMS Initial Mark) [1 CMS-initial-mark: 575582K(615588K)] 605924K(851556K), 0.0065740 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+2019-03-15T21:33:55.031+0900: 3.912: Total time for which application threads were stopped: 0.0067267 seconds, Stopping threads took: 0.0000725 seconds
+2019-03-15T21:33:55.031+0900: 3.912: [CMS-concurrent-mark-start]
+2019-03-15T21:33:55.283+0900: 4.163: Application time: 0.2515970 seconds
+2019-03-15T21:33:55.283+0900: 4.163: Total time for which application threads were stopped: 0.0000874 seconds, Stopping threads took: 0.0000451 seconds
+2019-03-15T21:33:55.556+0900: 4.436: [CMS-concurrent-mark: 0.524/0.525 secs] [Times: user=0.51 sys=0.00, real=0.53 secs] 
+2019-03-15T21:33:55.556+0900: 4.436: [CMS-concurrent-preclean-start]
+2019-03-15T21:33:55.556+0900: 4.437: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2019-03-15T21:33:55.556+0900: 4.437: [CMS-concurrent-abortable-preclean-start]
+2019-03-15T21:33:55.773+0900: 4.653: [CMS-concurrent-abortable-preclean: 0.117/0.216 secs] [Times: user=0.16 sys=0.00, real=0.22 secs] 
+2019-03-15T21:33:55.773+0900: 4.653: Application time: 0.4901257 seconds
+2019-03-15T21:33:55.773+0900: 4.653: [GC (CMS Final Remark) [YG occupancy: 235968 K (235968 K)]2019-03-15T21:33:55.773+0900: 4.653: [Rescan (parallel) , 0.0599007 secs]2019-03-15T21:33:55.833+0900: 4.713: [weak refs processing, 0.0000199 secs]2019-03-15T21:33:55.833+0900: 4.713: [class unloading, 0.0003297 secs]2019-03-15T21:33:55.833+0900: 4.714: [scrub symbol table, 0.0004317 secs]2019-03-15T21:33:55.834+0900: 4.714: [scrub string table, 0.0001048 secs][1 CMS-remark: 575582K(615588K)] 811550K(851556K), 0.0609034 secs] [Times: user=0.25 sys=0.00, real=0.06 secs] 
+2019-03-15T21:33:55.834+0900: 4.714: Total time for which application threads were stopped: 0.0609840 seconds, Stopping threads took: 0.0000367 seconds
+2019-03-15T21:33:55.834+0900: 4.714: [CMS-concurrent-sweep-start]
+2019-03-15T21:33:55.834+0900: 4.715: Application time: 0.0006646 seconds
+2019-03-15T21:33:55.834+0900: 4.715: [GC (Allocation Failure) 2019-03-15T21:33:55.834+0900: 4.715: [ParNew: 235968K->235968K(235968K), 0.0000165 secs]2019-03-15T21:33:55.835+0900: 4.715: [CMS2019-03-15T21:33:56.025+0900: 4.906: [CMS-concurrent-sweep: 0.191/0.191 secs] [Times: user=0.19 sys=0.00, real=0.19 secs] 
+ (concurrent mode failure): 575582K->615251K(615588K), 2.0532611 secs] 811550K->759885K(851556K), [Metaspace: 3822K->3822K(1056768K)], 2.0536863 secs] [Times: user=1.93 sys=0.13, real=2.05 secs] 
+2019-03-15T21:33:57.888+0900: 6.769: Total time for which application threads were stopped: 2.0537777 seconds, Stopping threads took: 0.0000124 seconds
+2019-03-15T21:33:58.173+0900: 7.053: Application time: 0.2846812 seconds
+2019-03-15T21:33:58.173+0900: 7.054: [GC (Allocation Failure) 2019-03-15T21:33:58.173+0900: 7.054: [ParNew (promotion failed): 209792K->235968K(235968K), 0.9050535 secs]2019-03-15T21:33:59.078+0900: 7.959: [CMS: 786248K->786431K(786432K), 1.8366751 secs] 825043K->855637K(1022400K), [Metaspace: 3822K->3822K(1056768K)], 2.7418891 secs] [Times: user=4.12 sys=0.51, real=2.74 secs] 
+2019-03-15T21:34:00.916+0900: 9.796: Total time for which application threads were stopped: 2.7420480 seconds, Stopping threads took: 0.0000507 seconds
+2019-03-15T21:34:00.916+0900: 9.796: Application time: 0.0000330 seconds
+2019-03-15T21:34:00.916+0900: 9.796: [GC (CMS Initial Mark) [1 CMS-initial-mark: 786431K(786432K)] 858808K(1022400K), 0.0606892 secs] [Times: user=0.06 sys=0.00, real=0.06 secs] 
+2019-03-15T21:34:00.977+0900: 9.856: Total time for which application threads were stopped: 0.0609199 seconds, Stopping threads took: 0.0001225 seconds
+2019-03-15T21:34:00.977+0900: 9.857: [CMS-concurrent-mark-start]
+2019-03-15T21:34:01.622+0900: 10.502: [CMS-concurrent-mark: 0.645/0.645 secs] [Times: user=0.73 sys=0.00, real=0.64 secs] 
+2019-03-15T21:34:01.622+0900: 10.502: [CMS-concurrent-preclean-start]
+2019-03-15T21:34:01.700+0900: 10.580: Application time: 0.7238432 seconds
+2019-03-15T21:34:01.701+0900: 10.580: [Full GC (Allocation Failure) 2019-03-15T21:34:01.701+0900: 10.580: [CMS2019-03-15T21:34:02.160+0900: 11.040: [CMS-concurrent-preclean: 0.538/0.538 secs] [Times: user=0.58 sys=0.00, real=0.54 secs] 
+ (concurrent mode failure): 786431K->786431K(786432K), 2.4109611 secs] 1022287K->972809K(1022400K), [Metaspace: 3822K->3822K(1056768K)], 2.4110719 secs] [Times: user=2.29 sys=0.13, real=2.41 secs] 
+2019-03-15T21:34:04.112+0900: 12.992: Total time for which application threads were stopped: 2.4111931 seconds, Stopping threads took: 0.0000271 seconds
+2019-03-15T21:34:04.456+0900: 13.336: Application time: 0.3441232 seconds
+2019-03-15T21:34:04.456+0900: 13.336: [Full GC (Allocation Failure) 2019-03-15T21:34:04.456+0900: 13.336: [CMS: 786431K->786431K(786432K), 2.0290254 secs] 1022399K->1007572K(1022400K), [Metaspace: 3825K->3825K(1056768K)], 2.0291143 secs] [Times: user=1.97 sys=0.06, real=2.03 secs] 
+2019-03-15T21:34:06.485+0900: 15.365: Total time for which application threads were stopped: 2.0292332 seconds, Stopping threads took: 0.0000323 seconds
+2019-03-15T21:34:06.485+0900: 15.365: Application time: 0.0000445 seconds
+2019-03-15T21:34:06.485+0900: 15.365: [GC (CMS Initial Mark) [1 CMS-initial-mark: 786431K(786432K)] 1007573K(1022400K), 0.1611273 secs] [Times: user=0.16 sys=0.00, real=0.16 secs] 
+2019-03-15T21:34:06.646+0900: 15.526: Total time for which application threads were stopped: 0.1612333 seconds, Stopping threads took: 0.0000255 seconds
+2019-03-15T21:34:06.646+0900: 15.526: [CMS-concurrent-mark-start]
+2019-03-15T21:34:06.784+0900: 15.664: Application time: 0.1383061 seconds
+2019-03-15T21:34:06.785+0900: 15.665: [Full GC (Allocation Failure) 2019-03-15T21:34:06.785+0900: 15.665: [CMS2019-03-15T21:34:07.304+0900: 16.184: [CMS-concurrent-mark: 0.658/0.658 secs] [Times: user=0.73 sys=0.00, real=0.66 secs] 
+ (concurrent mode failure): 786431K->786431K(786432K), 2.5048558 secs] 1022399K->1018063K(1022400K), [Metaspace: 3825K->3825K(1056768K)], 2.5049631 secs] [Times: user=2.43 sys=0.08, real=2.50 secs] 
+2019-03-15T21:34:09.289+0900: 18.170: Total time for which application threads were stopped: 2.5050887 seconds, Stopping threads took: 0.0000342 seconds
+2019-03-15T21:34:09.330+0900: 18.211: Application time: 0.0410266 seconds
+2019-03-15T21:34:09.331+0900: 18.211: [Full GC (Allocation Failure) 2019-03-15T21:34:09.331+0900: 18.211: [CMS: 786431K->786431K(786432K), 2.1274068 secs] 1022266K->1021041K(1022400K), [Metaspace: 3825K->3825K(1056768K)], 2.1274976 secs] [Times: user=1.89 sys=0.09, real=2.13 secs] 
+2019-03-15T21:34:11.458+0900: 20.338: Total time for which application threads were stopped: 2.1276755 seconds, Stopping threads took: 0.0000715 seconds
+2019-03-15T21:34:11.458+0900: 20.339: Application time: 0.0004755 seconds
+2019-03-15T21:34:11.459+0900: 20.339: [GC (CMS Initial Mark) [1 CMS-initial-mark: 786431K(786432K)] 1021458K(1022400K), 0.1918959 secs] [Times: user=0.17 sys=0.00, real=0.19 secs] 
+2019-03-15T21:34:11.651+0900: 20.531: Total time for which application threads were stopped: 0.1920216 seconds, Stopping threads took: 0.0000495 seconds
+2019-03-15T21:34:11.651+0900: 20.531: [CMS-concurrent-mark-start]
+2019-03-15T21:34:11.668+0900: 20.549: Application time: 0.0178624 seconds
+2019-03-15T21:34:11.668+0900: 20.549: [Full GC (Allocation Failure) 2019-03-15T21:34:11.668+0900: 20.549: [CMS2019-03-15T21:34:12.328+0900: 21.208: [CMS-concurrent-mark: 0.677/0.677 secs] [Times: user=0.64 sys=0.00, real=0.68 secs] 
+ (concurrent mode failure): 786431K->786431K(786432K), 2.6414077 secs] 1022399K->1021956K(1022400K), [Metaspace: 3825K->3825K(1056768K)], 2.6414954 secs] [Times: user=2.53 sys=0.05, real=2.64 secs] 
+2019-03-15T21:34:14.310+0900: 23.190: Total time for which application threads were stopped: 2.6415962 seconds, Stopping threads took: 0.0000159 seconds
+2019-03-15T21:34:14.312+0900: 23.193: Application time: 0.0023790 seconds
+2019-03-15T21:34:14.312+0900: 23.193: [Full GC (Allocation Failure) 2019-03-15T21:34:14.312+0900: 23.193: [CMS: 786431K->786431K(786432K), 1.9958992 secs] 1022329K->1022246K(1022400K), [Metaspace: 3825K->3825K(1056768K)], 1.9960022 secs] [Times: user=1.89 sys=0.08, real=2.00 secs] 
+2019-03-15T21:34:16.308+0900: 25.189: [Full GC (Allocation Failure) 2019-03-15T21:34:16.308+0900: 25.189: [CMS: 786431K->786432K(786432K), 2.3763004 secs] 1022246K->1022212K(1022400K), [Metaspace: 3825K->3825K(1056768K)], 2.3763782 secs] [Times: user=2.28 sys=0.08, real=2.38 secs] 
+2019-03-15T21:34:18.686+0900: 27.565: Total time for which application threads were stopped: 4.3725551 seconds, Stopping threads took: 0.0000392 seconds
+2019-03-15T21:34:18.686+0900: 27.566: Application time: 0.0007974 seconds
+2019-03-15T21:34:18.686+0900: 27.566: [GC (CMS Initial Mark) [1 CMS-initial-mark: 786432K(786432K)] 1022397K(1022400K), 0.1652315 secs] [Times: user=0.16 sys=0.00, real=0.17 secs] 
+2019-03-15T21:34:18.852+0900: 27.731: Total time for which application threads were stopped: 0.1653279 seconds, Stopping threads took: 0.0000140 seconds
+2019-03-15T21:34:18.852+0900: 27.731: [CMS-concurrent-mark-start]
+2019-03-15T21:34:18.858+0900: 27.737: Application time: 0.0057974 seconds
+2019-03-15T21:34:18.858+0900: 27.737: [Full GC (Allocation Failure) 2019-03-15T21:34:18.858+0900: 27.737: [CMS2019-03-15T21:34:19.521+0900: 28.401: [CMS-concurrent-mark: 0.669/0.669 secs] [Times: user=0.66 sys=0.00, real=0.67 secs] 
+ (concurrent mode failure): 786432K->786432K(786432K), 2.6623616 secs] 1022399K->1022276K(1022400K), [Metaspace: 3819K->3819K(1056768K)], 2.6624514 secs] [Times: user=2.47 sys=0.19, real=2.66 secs] 
+2019-03-15T21:34:21.520+0900: 30.400: Total time for which application threads were stopped: 2.6625466 seconds, Stopping threads took: 0.0000134 seconds
+2019-03-15T21:34:21.521+0900: 30.401: Application time: 0.0012599 seconds
+2019-03-15T21:34:21.521+0900: 30.401: [Full GC (Allocation Failure) 2019-03-15T21:34:21.521+0900: 30.401: [CMS: 786432K->786432K(786432K), 1.9811458 secs] 1022399K->1022399K(1022400K), [Metaspace: 3819K->3819K(1056768K)], 1.9812071 secs] [Times: user=1.84 sys=0.14, real=1.98 secs] 
+2019-03-15T21:34:23.502+0900: 32.382: [Full GC (Allocation Failure) 2019-03-15T21:34:23.502+0900: 32.382: [CMS: 786432K->786432K(786432K), 1.9723297 secs] 1022399K->1022399K(1022400K), [Metaspace: 3819K->3819K(1056768K)], 1.9723922 secs] [Times: user=1.81 sys=0.16, real=1.97 secs] 
+2019-03-15T21:34:25.475+0900: 34.355: Total time for which application threads were stopped: 3.9537536 seconds, Stopping threads took: 0.0000283 seconds
+2019-03-15T21:34:25.475+0900: 34.355: Application time: 0.0000460 seconds
+2019-03-15T21:34:25.475+0900: 34.355: [GC (CMS Initial Mark) [1 CMS-initial-mark: 786432K(786432K)] 1022399K(1022400K), 0.1538968 secs] [Times: user=0.17 sys=0.00, real=0.15 secs] 
+2019-03-15T21:34:25.629+0900: 34.509: Total time for which application threads were stopped: 0.1542274 seconds, Stopping threads took: 0.0002578 seconds
+2019-03-15T21:34:25.629+0900: 34.509: [CMS-concurrent-mark-start]
+2019-03-15T21:34:25.629+0900: 34.509: Application time: 0.0002466 seconds
+2019-03-15T21:34:25.629+0900: 34.509: [Full GC (Allocation Failure) 2019-03-15T21:34:25.629+0900: 34.509: [CMS2019-03-15T21:34:26.277+0900: 35.157: [CMS-concurrent-mark: 0.648/0.648 secs] [Times: user=0.64 sys=0.00, real=0.65 secs] 
+ (concurrent mode failure): 786432K->729K(786432K), 0.9788253 secs] 1022399K->729K(1022400K), [Metaspace: 3819K->3819K(1056768K)], 0.9788950 secs] [Times: user=0.98 sys=0.00, real=0.98 secs] 
+2019-03-15T21:34:26.608+0900: 35.488: Total time for which application threads were stopped: 0.9790225 seconds, Stopping threads took: 0.0000442 seconds
+Heap
+ par new generation   total 235968K, used 4940K [0x00000000c0000000, 0x00000000d0000000, 0x00000000d0000000)
+  eden space 209792K,   2% used [0x00000000c0000000, 0x00000000c04d3010, 0x00000000ccce0000)
+  from space 26176K,   0% used [0x00000000ccce0000, 0x00000000ccce0000, 0x00000000ce670000)
+  to   space 26176K,   0% used [0x00000000ce670000, 0x00000000ce670000, 0x00000000d0000000)
+ concurrent mark-sweep generation total 786432K, used 729K [0x00000000d0000000, 0x0000000100000000, 0x0000000100000000)
+ Metaspace       used 3852K, capacity 4684K, committed 4864K, reserved 1056768K
+  class space    used 434K, capacity 499K, committed 512K, reserved 1048576K
+2019-03-15T21:34:26.610+0900: 35.490: Application time: 0.0013119 seconds
