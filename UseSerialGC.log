@@ -1,0 +1,381 @@
+Java HotSpot(TM) 64-Bit Server VM (25.111-b14) for windows-amd64 JRE (1.8.0_111-b14), built on Sep 22 2016 19:24:05 by "java_re" with MS VC++ 10.0 (VS2010)
+Memory: 4k page, physical 16714364k(9948968k free), swap 33426828k(23089896k free)
+CommandLine flags: -XX:InitialHeapSize=273888048 -XX:MaxHeapSize=1073741824 -XX:MaxNewSize=268435456 -XX:NewSize=268435456 -XX:+PrintGC -XX:+PrintGCApplicationConcurrentTime -XX:+PrintGCApplicationStoppedTime -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:-UseLargePagesIndividualAllocation -XX:+UseSerialGC 
+2019-03-15T20:44:16.180+0900: 0.960: Application time: 0.8915535 seconds
+2019-03-15T20:44:16.180+0900: 0.960: [GC (Allocation Failure) 2019-03-15T20:44:16.180+0900: 0.960: [DefNew: 209792K->26175K(235968K), 0.2263766 secs]2019-03-15T20:44:16.407+0900: 1.187: [Tenured: 117588K->117695K(117696K), 0.2166707 secs] 209792K->143762K(353664K), [Metaspace: 3808K->3808K(1056768K)], 0.4433676 secs] [Times: user=0.41 sys=0.03, real=0.44 secs] 
+2019-03-15T20:44:16.624+0900: 1.404: Total time for which application threads were stopped: 0.4435181 seconds, Stopping threads took: 0.0000156 seconds
+2019-03-15T20:44:17.387+0900: 2.167: Application time: 0.7633368 seconds
+2019-03-15T20:44:17.387+0900: 2.167: [GC (Allocation Failure) 2019-03-15T20:44:17.387+0900: 2.167: [DefNew: 209792K->26176K(235968K), 0.2242782 secs] 327487K->219471K(432128K), 0.2243991 secs] [Times: user=0.20 sys=0.01, real=0.22 secs] 
+2019-03-15T20:44:17.611+0900: 2.392: Total time for which application threads were stopped: 0.2245932 seconds, Stopping threads took: 0.0000585 seconds
+2019-03-15T20:44:18.540+0900: 3.320: Application time: 0.9284125 seconds
+2019-03-15T20:44:18.540+0900: 3.320: [GC (Allocation Failure) 2019-03-15T20:44:18.540+0900: 3.320: [DefNew: 235968K->26175K(235968K), 0.0898738 secs]2019-03-15T20:44:18.630+0900: 3.410: [Tenured: 226823K->198642K(226880K), 0.3893746 secs] 429263K->198642K(462848K), [Metaspace: 3875K->3875K(1056768K)], 0.4795262 secs] [Times: user=0.48 sys=0.00, real=0.48 secs] 
+2019-03-15T20:44:19.020+0900: 3.800: Total time for which application threads were stopped: 0.4797234 seconds, Stopping threads took: 0.0000491 seconds
+2019-03-15T20:44:19.385+0900: 4.165: Application time: 0.3651147 seconds
+2019-03-15T20:44:19.385+0900: 4.165: Total time for which application threads were stopped: 0.0001502 seconds, Stopping threads took: 0.0000659 seconds
+2019-03-15T20:44:19.917+0900: 4.698: Application time: 0.5325662 seconds
+2019-03-15T20:44:19.917+0900: 4.698: [GC (Allocation Failure) 2019-03-15T20:44:19.918+0900: 4.698: [DefNew: 209792K->26175K(235968K), 0.0704442 secs] 408434K->233341K(567040K), 0.0705901 secs] [Times: user=0.08 sys=0.00, real=0.07 secs] 
+2019-03-15T20:44:19.988+0900: 4.768: Total time for which application threads were stopped: 0.0707982 seconds, Stopping threads took: 0.0000681 seconds
+2019-03-15T20:44:20.894+0900: 5.674: Application time: 0.9059290 seconds
+2019-03-15T20:44:20.894+0900: 5.675: [GC (Allocation Failure) 2019-03-15T20:44:20.894+0900: 5.675: [DefNew: 235967K->26175K(235968K), 0.1080360 secs] 443133K->264521K(567040K), 0.1081846 secs] [Times: user=0.11 sys=0.00, real=0.11 secs] 
+2019-03-15T20:44:21.002+0900: 5.783: Total time for which application threads were stopped: 0.1084375 seconds, Stopping threads took: 0.0000802 seconds
+2019-03-15T20:44:21.881+0900: 6.661: Application time: 0.8784792 seconds
+2019-03-15T20:44:21.881+0900: 6.662: [GC (Allocation Failure) 2019-03-15T20:44:21.881+0900: 6.662: [DefNew: 235967K->26176K(235968K), 0.1268808 secs] 474313K->303273K(567040K), 0.1270326 secs] [Times: user=0.11 sys=0.02, real=0.13 secs] 
+2019-03-15T20:44:22.008+0900: 6.789: Total time for which application threads were stopped: 0.1272833 seconds, Stopping threads took: 0.0000815 seconds
+2019-03-15T20:44:22.948+0900: 7.728: Application time: 0.9393864 seconds
+2019-03-15T20:44:22.948+0900: 7.728: [GC (Allocation Failure) 2019-03-15T20:44:22.948+0900: 7.728: [DefNew: 235968K->26175K(235968K), 0.1322079 secs] 513065K->353402K(567040K), 0.1323874 secs] [Times: user=0.13 sys=0.00, real=0.13 secs] 
+2019-03-15T20:44:23.080+0900: 7.861: Total time for which application threads were stopped: 0.1325902 seconds, Stopping threads took: 0.0000554 seconds
+2019-03-15T20:44:23.942+0900: 8.722: Application time: 0.8617577 seconds
+2019-03-15T20:44:23.942+0900: 8.723: [GC (Allocation Failure) 2019-03-15T20:44:23.942+0900: 8.723: [DefNew: 235967K->2666K(235968K), 0.0831841 secs]2019-03-15T20:44:24.025+0900: 8.806: [Tenured: 352786K->197235K(352804K), 0.4674065 secs] 563194K->197235K(588772K), [Metaspace: 3903K->3903K(1056768K)], 0.5524141 secs] [Times: user=0.55 sys=0.01, real=0.55 secs] 
+2019-03-15T20:44:24.494+0900: 9.275: Total time for which application threads were stopped: 0.5526713 seconds, Stopping threads took: 0.0000806 seconds
+2019-03-15T20:44:25.330+0900: 10.111: Application time: 0.8359694 seconds
+2019-03-15T20:44:25.331+0900: 10.111: [GC (Allocation Failure) 2019-03-15T20:44:25.331+0900: 10.111: [DefNew: 209792K->26175K(235968K), 0.0545176 secs] 407027K->226359K(567040K), 0.0546249 secs] [Times: user=0.06 sys=0.00, real=0.05 secs] 
+2019-03-15T20:44:25.385+0900: 10.166: Total time for which application threads were stopped: 0.0547972 seconds, Stopping threads took: 0.0000498 seconds
+2019-03-15T20:44:26.188+0900: 10.969: Application time: 0.8030342 seconds
+2019-03-15T20:44:26.188+0900: 10.969: [GC (Allocation Failure) 2019-03-15T20:44:26.188+0900: 10.969: [DefNew: 235967K->26176K(235968K), 0.0927482 secs] 436151K->273912K(567040K), 0.0928107 secs] [Times: user=0.09 sys=0.00, real=0.09 secs] 
+2019-03-15T20:44:26.281+0900: 11.062: Total time for which application threads were stopped: 0.0929295 seconds, Stopping threads took: 0.0000193 seconds
+2019-03-15T20:44:27.081+0900: 11.862: Application time: 0.8003641 seconds
+2019-03-15T20:44:27.082+0900: 11.862: [GC (Allocation Failure) 2019-03-15T20:44:27.082+0900: 11.862: [DefNew: 235968K->22182K(235968K), 0.0798282 secs] 483704K->292781K(567040K), 0.0799744 secs] [Times: user=0.08 sys=0.00, real=0.08 secs] 
+2019-03-15T20:44:27.162+0900: 11.942: Total time for which application threads were stopped: 0.0801775 seconds, Stopping threads took: 0.0000423 seconds
+2019-03-15T20:44:28.001+0900: 12.781: Application time: 0.8391066 seconds
+2019-03-15T20:44:28.001+0900: 12.782: [GC (Allocation Failure) 2019-03-15T20:44:28.001+0900: 12.782: [DefNew: 231974K->2387K(235968K), 0.0269556 secs] 502573K->291971K(567040K), 0.0270321 secs] [Times: user=0.01 sys=0.00, real=0.03 secs] 
+2019-03-15T20:44:28.028+0900: 12.809: Total time for which application threads were stopped: 0.0271929 seconds, Stopping threads took: 0.0000700 seconds
+2019-03-15T20:44:28.873+0900: 13.652: Application time: 0.8438621 seconds
+2019-03-15T20:44:28.873+0900: 13.653: [GC (Allocation Failure) 2019-03-15T20:44:28.873+0900: 13.653: [DefNew: 212179K->19184K(235968K), 0.0238600 secs] 501763K->308768K(567040K), 0.0239645 secs] [Times: user=0.03 sys=0.00, real=0.02 secs] 
+2019-03-15T20:44:28.897+0900: 13.677: Total time for which application threads were stopped: 0.0241157 seconds, Stopping threads took: 0.0000439 seconds
+2019-03-15T20:44:29.801+0900: 14.581: Application time: 0.9039705 seconds
+2019-03-15T20:44:29.801+0900: 14.581: [GC (Allocation Failure) 2019-03-15T20:44:29.801+0900: 14.581: [DefNew: 228976K->26176K(235968K), 0.0707891 secs] 518560K->347485K(567040K), 0.0709154 secs] [Times: user=0.06 sys=0.00, real=0.07 secs] 
+2019-03-15T20:44:29.872+0900: 14.652: Total time for which application threads were stopped: 0.0710411 seconds, Stopping threads took: 0.0000339 seconds
+2019-03-15T20:44:30.683+0900: 15.463: Application time: 0.8116814 seconds
+2019-03-15T20:44:30.684+0900: 15.464: [GC (Allocation Failure) 2019-03-15T20:44:30.684+0900: 15.464: [DefNew: 235968K->3665K(235968K), 0.0853146 secs]2019-03-15T20:44:30.769+0900: 15.549: [Tenured: 346397K->200211K(346432K), 0.4290499 secs] 557277K->200211K(582400K), [Metaspace: 3908K->3908K(1056768K)], 0.5156577 secs] [Times: user=0.51 sys=0.02, real=0.51 secs] 
+2019-03-15T20:44:31.199+0900: 15.979: Total time for which application threads were stopped: 0.5159264 seconds, Stopping threads took: 0.0000790 seconds
+2019-03-15T20:44:32.105+0900: 16.884: Application time: 0.9051894 seconds
+2019-03-15T20:44:32.105+0900: 16.885: [GC (Allocation Failure) 2019-03-15T20:44:32.105+0900: 16.885: [DefNew: 209792K->1214K(235968K), 0.0043785 secs] 410003K->201426K(569656K), 0.0045066 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2019-03-15T20:44:32.109+0900: 16.889: Total time for which application threads were stopped: 0.0047293 seconds, Stopping threads took: 0.0000420 seconds
+2019-03-15T20:44:33.030+0900: 17.810: Application time: 0.9203590 seconds
+2019-03-15T20:44:33.030+0900: 17.810: [GC (Allocation Failure) 2019-03-15T20:44:33.030+0900: 17.810: [DefNew: 211006K->26175K(235968K), 0.0346928 secs] 411218K->230259K(569656K), 0.0347696 secs] [Times: user=0.03 sys=0.00, real=0.03 secs] 
+2019-03-15T20:44:33.065+0900: 17.844: Total time for which application threads were stopped: 0.0348999 seconds, Stopping threads took: 0.0000398 seconds
+2019-03-15T20:44:33.897+0900: 18.677: Application time: 0.8329842 seconds
+2019-03-15T20:44:33.898+0900: 18.678: [GC (Allocation Failure) 2019-03-15T20:44:33.898+0900: 18.678: [DefNew: 235967K->22973K(235968K), 0.0779721 secs] 440051K->253137K(569656K), 0.0780673 secs] [Times: user=0.08 sys=0.00, real=0.08 secs] 
+2019-03-15T20:44:33.976+0900: 18.756: Total time for which application threads were stopped: 0.0782103 seconds, Stopping threads took: 0.0000383 seconds
+2019-03-15T20:44:34.884+0900: 19.664: Application time: 0.9086859 seconds
+2019-03-15T20:44:34.885+0900: 19.665: [GC (Allocation Failure) 2019-03-15T20:44:34.885+0900: 19.665: [DefNew: 232765K->2361K(235968K), 0.0582296 secs] 462929K->252299K(569656K), 0.0583901 secs] [Times: user=0.06 sys=0.00, real=0.06 secs] 
+2019-03-15T20:44:34.943+0900: 19.723: Total time for which application threads were stopped: 0.0586504 seconds, Stopping threads took: 0.0000799 seconds
+2019-03-15T20:44:35.806+0900: 20.586: Application time: 0.8627405 seconds
+2019-03-15T20:44:35.806+0900: 20.586: [GC (Allocation Failure) 2019-03-15T20:44:35.806+0900: 20.586: [DefNew: 212153K->3185K(235968K), 0.0092369 secs] 462091K->253123K(569656K), 0.0094064 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2019-03-15T20:44:35.815+0900: 20.595: Total time for which application threads were stopped: 0.0097041 seconds, Stopping threads took: 0.0000812 seconds
+2019-03-15T20:44:36.716+0900: 21.496: Application time: 0.9005154 seconds
+2019-03-15T20:44:36.716+0900: 21.496: [GC (Allocation Failure) 2019-03-15T20:44:36.716+0900: 21.496: [DefNew: 212977K->26175K(235968K), 0.0689084 secs] 462915K->295691K(569656K), 0.0690076 secs] [Times: user=0.08 sys=0.00, real=0.07 secs] 
+2019-03-15T20:44:36.785+0900: 21.565: Total time for which application threads were stopped: 0.0691575 seconds, Stopping threads took: 0.0000451 seconds
+2019-03-15T20:44:37.528+0900: 22.308: Application time: 0.7432177 seconds
+2019-03-15T20:44:37.528+0900: 22.308: [GC (Allocation Failure) 2019-03-15T20:44:37.528+0900: 22.308: [DefNew: 235967K->2902K(235968K), 0.0328742 secs] 505483K->298320K(569656K), 0.0329585 secs] [Times: user=0.03 sys=0.00, real=0.03 secs] 
+2019-03-15T20:44:37.561+0900: 22.341: Total time for which application threads were stopped: 0.0331094 seconds, Stopping threads took: 0.0000613 seconds
+2019-03-15T20:44:38.455+0900: 23.235: Application time: 0.8935017 seconds
+2019-03-15T20:44:38.455+0900: 23.235: [GC (Allocation Failure) 2019-03-15T20:44:38.455+0900: 23.235: [DefNew: 212694K->76K(235968K), 0.0011644 secs] 508112K->295495K(569656K), 0.0013346 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2019-03-15T20:44:38.456+0900: 23.237: Total time for which application threads were stopped: 0.0017308 seconds, Stopping threads took: 0.0000802 seconds
+2019-03-15T20:44:39.330+0900: 24.111: Application time: 0.8738491 seconds
+2019-03-15T20:44:39.330+0900: 24.111: [GC (Allocation Failure) 2019-03-15T20:44:39.330+0900: 24.111: [DefNew: 209868K->20897K(235968K), 0.0407265 secs] 505287K->316315K(569656K), 0.0408431 secs] [Times: user=0.03 sys=0.00, real=0.04 secs] 
+2019-03-15T20:44:39.371+0900: 24.152: Total time for which application threads were stopped: 0.0410114 seconds, Stopping threads took: 0.0000407 seconds
+2019-03-15T20:44:40.228+0900: 25.008: Application time: 0.8565914 seconds
+2019-03-15T20:44:40.228+0900: 25.008: [GC (Allocation Failure) 2019-03-15T20:44:40.228+0900: 25.008: [DefNew: 230689K->10159K(235968K), 0.0543488 secs] 526107K->325352K(569656K), 0.0544604 secs] [Times: user=0.06 sys=0.00, real=0.06 secs] 
+2019-03-15T20:44:40.283+0900: 25.063: Total time for which application threads were stopped: 0.0546268 seconds, Stopping threads took: 0.0000495 seconds
+2019-03-15T20:44:41.153+0900: 25.934: Application time: 0.8708739 seconds
+2019-03-15T20:44:41.153+0900: 25.934: [GC (Allocation Failure) 2019-03-15T20:44:41.154+0900: 25.934: [DefNew: 219951K->11022K(235968K), 0.0224831 secs] 535144K->326215K(569656K), 0.0225908 secs] [Times: user=0.02 sys=0.00, real=0.02 secs] 
+2019-03-15T20:44:41.176+0900: 25.956: Total time for which application threads were stopped: 0.0227600 seconds, Stopping threads took: 0.0000411 seconds
+2019-03-15T20:44:42.027+0900: 26.807: Application time: 0.8507732 seconds
+2019-03-15T20:44:42.027+0900: 26.807: [GC (Allocation Failure) 2019-03-15T20:44:42.027+0900: 26.807: [DefNew: 220814K->12269K(235968K), 0.0214459 secs] 536007K->327462K(569656K), 0.0215377 secs] [Times: user=0.02 sys=0.00, real=0.02 secs] 
+2019-03-15T20:44:42.049+0900: 26.829: Total time for which application threads were stopped: 0.0216807 seconds, Stopping threads took: 0.0000386 seconds
+2019-03-15T20:44:42.885+0900: 27.665: Application time: 0.8364919 seconds
+2019-03-15T20:44:42.885+0900: 27.666: [GC (Allocation Failure) 2019-03-15T20:44:42.885+0900: 27.666: [DefNew: 222061K->26175K(235968K), 0.0961240 secs] 537254K->356129K(569656K), 0.0963025 secs] [Times: user=0.09 sys=0.00, real=0.10 secs] 
+2019-03-15T20:44:42.982+0900: 27.762: Total time for which application threads were stopped: 0.0965597 seconds, Stopping threads took: 0.0000812 seconds
+2019-03-15T20:44:43.859+0900: 28.640: Application time: 0.8777148 seconds
+2019-03-15T20:44:43.859+0900: 28.640: [GC (Allocation Failure) 2019-03-15T20:44:43.860+0900: 28.640: [DefNew: 235967K->2520K(235968K), 0.0607756 secs]2019-03-15T20:44:43.920+0900: 28.701: [Tenured: 354324K->199067K(354400K), 0.4160161 secs] 565921K->199067K(590368K), [Metaspace: 3921K->3921K(1056768K)], 0.4789573 secs] [Times: user=0.45 sys=0.02, real=0.48 secs] 
+2019-03-15T20:44:44.338+0900: 29.119: Total time for which application threads were stopped: 0.4791716 seconds, Stopping threads took: 0.0000563 seconds
+2019-03-15T20:44:45.224+0900: 30.005: Application time: 0.8858609 seconds
+2019-03-15T20:44:45.224+0900: 30.005: [GC (Allocation Failure) 2019-03-15T20:44:45.224+0900: 30.005: [DefNew: 209792K->5209K(235968K), 0.0060596 secs] 408859K->204276K(569656K), 0.0061519 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2019-03-15T20:44:45.231+0900: 30.011: Total time for which application threads were stopped: 0.0063158 seconds, Stopping threads took: 0.0000666 seconds
+2019-03-15T20:44:46.079+0900: 30.859: Application time: 0.8477243 seconds
+2019-03-15T20:44:46.079+0900: 30.859: [GC (Allocation Failure) 2019-03-15T20:44:46.080+0900: 30.859: [DefNew: 215001K->26176K(235968K), 0.0700343 secs] 414068K->225279K(569656K), 0.0701945 secs] [Times: user=0.08 sys=0.00, real=0.07 secs] 
+2019-03-15T20:44:46.150+0900: 30.929: Total time for which application threads were stopped: 0.0704480 seconds, Stopping threads took: 0.0000802 seconds
+2019-03-15T20:44:47.062+0900: 31.841: Application time: 0.9119954 seconds
+2019-03-15T20:44:47.062+0900: 31.841: [GC (Allocation Failure) 2019-03-15T20:44:47.062+0900: 31.841: [DefNew: 235968K->5951K(235968K), 0.0657351 secs] 435071K->230306K(569656K), 0.0658698 secs] [Times: user=0.08 sys=0.00, real=0.07 secs] 
+2019-03-15T20:44:47.128+0900: 31.907: Total time for which application threads were stopped: 0.0660788 seconds, Stopping threads took: 0.0000678 seconds
+2019-03-15T20:44:47.954+0900: 32.734: Application time: 0.8267287 seconds
+2019-03-15T20:44:47.955+0900: 32.734: [GC (Allocation Failure) 2019-03-15T20:44:47.955+0900: 32.734: [DefNew: 215743K->6961K(235968K), 0.0161107 secs] 440098K->231316K(569656K), 0.0162852 secs] [Times: user=0.02 sys=0.00, real=0.02 secs] 
+2019-03-15T20:44:47.971+0900: 32.750: Total time for which application threads were stopped: 0.0164786 seconds, Stopping threads took: 0.0000507 seconds
+2019-03-15T20:44:48.823+0900: 33.602: Application time: 0.8519650 seconds
+2019-03-15T20:44:48.823+0900: 33.603: [GC (Allocation Failure) 2019-03-15T20:44:48.823+0900: 33.603: [DefNew: 216753K->4162K(235968K), 0.0111606 secs] 441108K->228516K(569656K), 0.0112862 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+2019-03-15T20:44:48.834+0900: 33.614: Total time for which application threads were stopped: 0.0115011 seconds, Stopping threads took: 0.0000498 seconds
+2019-03-15T20:44:49.712+0900: 34.491: Application time: 0.8773338 seconds
+2019-03-15T20:44:49.712+0900: 34.491: [GC (Allocation Failure) 2019-03-15T20:44:49.712+0900: 34.491: [DefNew: 213954K->24940K(235968K), 0.0516460 secs] 438308K->249295K(569656K), 0.0517636 secs] [Times: user=0.06 sys=0.00, real=0.05 secs] 
+2019-03-15T20:44:49.764+0900: 34.543: Total time for which application threads were stopped: 0.0519213 seconds, Stopping threads took: 0.0000445 seconds
+2019-03-15T20:44:50.644+0900: 35.423: Application time: 0.8802614 seconds
+2019-03-15T20:44:50.644+0900: 35.424: [GC (Allocation Failure) 2019-03-15T20:44:50.644+0900: 35.424: [DefNew: 234732K->2202K(235968K), 0.0567818 secs] 459087K->250286K(569656K), 0.0568867 secs] [Times: user=0.06 sys=0.00, real=0.06 secs] 
+2019-03-15T20:44:50.701+0900: 35.481: Total time for which application threads were stopped: 0.0570375 seconds, Stopping threads took: 0.0000426 seconds
+2019-03-15T20:44:51.550+0900: 36.330: Application time: 0.8496420 seconds
+2019-03-15T20:44:51.551+0900: 36.330: [GC (Allocation Failure) 2019-03-15T20:44:51.551+0900: 36.330: [DefNew: 211994K->3119K(235968K), 0.0066247 secs] 460078K->251203K(569656K), 0.0067304 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+2019-03-15T20:44:51.557+0900: 36.337: Total time for which application threads were stopped: 0.0069099 seconds, Stopping threads took: 0.0000467 seconds
+2019-03-15T20:44:52.423+0900: 37.203: Application time: 0.8654734 seconds
+2019-03-15T20:44:52.423+0900: 37.203: [GC (Allocation Failure) 2019-03-15T20:44:52.423+0900: 37.203: [DefNew: 212911K->12045K(235968K), 0.0316893 secs] 460995K->260129K(569656K), 0.0318289 secs] [Times: user=0.03 sys=0.00, real=0.03 secs] 
+2019-03-15T20:44:52.455+0900: 37.235: Total time for which application threads were stopped: 0.0320432 seconds, Stopping threads took: 0.0000507 seconds
+2019-03-15T20:44:53.345+0900: 38.125: Application time: 0.8904795 seconds
+2019-03-15T20:44:53.345+0900: 38.125: [GC (Allocation Failure) 2019-03-15T20:44:53.345+0900: 38.125: [DefNew: 221837K->11073K(235968K), 0.0179700 secs] 469921K->259156K(569656K), 0.0180683 secs] [Times: user=0.01 sys=0.00, real=0.02 secs] 
+2019-03-15T20:44:53.364+0900: 38.143: Total time for which application threads were stopped: 0.0182166 seconds, Stopping threads took: 0.0000370 seconds
+2019-03-15T20:44:54.258+0900: 39.038: Application time: 0.8947103 seconds
+2019-03-15T20:44:54.258+0900: 39.038: [GC (Allocation Failure) 2019-03-15T20:44:54.258+0900: 39.038: [DefNew: 220865K->10190K(235968K), 0.0373865 secs] 468948K->258274K(569656K), 0.0375669 secs] [Times: user=0.03 sys=0.00, real=0.04 secs] 
+2019-03-15T20:44:54.296+0900: 39.076: Total time for which application threads were stopped: 0.0378079 seconds, Stopping threads took: 0.0000473 seconds
+2019-03-15T20:44:55.138+0900: 39.918: Application time: 0.8425561 seconds
+2019-03-15T20:44:55.139+0900: 39.919: [GC (Allocation Failure) 2019-03-15T20:44:55.139+0900: 39.919: [DefNew: 219982K->12789K(235968K), 0.0331417 secs] 468066K->260872K(569656K), 0.0332811 secs] [Times: user=0.03 sys=0.00, real=0.03 secs] 
+2019-03-15T20:44:55.172+0900: 39.952: Total time for which application threads were stopped: 0.0334857 seconds, Stopping threads took: 0.0000261 seconds
+2019-03-15T20:44:56.038+0900: 40.818: Application time: 0.8657608 seconds
+2019-03-15T20:44:56.038+0900: 40.818: [GC (Allocation Failure) 2019-03-15T20:44:56.038+0900: 40.818: [DefNew: 222581K->26176K(235968K), 0.0665257 secs] 470664K->277779K(569656K), 0.0666843 secs] [Times: user=0.06 sys=0.00, real=0.07 secs] 
+2019-03-15T20:44:56.105+0900: 40.885: Total time for which application threads were stopped: 0.0669331 seconds, Stopping threads took: 0.0000799 seconds
+2019-03-15T20:44:56.942+0900: 41.722: Application time: 0.8369780 seconds
+2019-03-15T20:44:56.942+0900: 41.722: [GC (Allocation Failure) 2019-03-15T20:44:56.942+0900: 41.722: [DefNew: 235968K->3057K(235968K), 0.0472317 secs] 487571K->278824K(569656K), 0.0473316 secs] [Times: user=0.05 sys=0.00, real=0.05 secs] 
+2019-03-15T20:44:56.989+0900: 41.769: Total time for which application threads were stopped: 0.0474924 seconds, Stopping threads took: 0.0000498 seconds
+2019-03-15T20:44:57.824+0900: 42.604: Application time: 0.8345760 seconds
+2019-03-15T20:44:57.824+0900: 42.604: [GC (Allocation Failure) 2019-03-15T20:44:57.824+0900: 42.604: [DefNew: 212849K->2220K(235968K), 0.0027034 secs] 488616K->277988K(569656K), 0.0027901 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2019-03-15T20:44:57.827+0900: 42.607: Total time for which application threads were stopped: 0.0029609 seconds, Stopping threads took: 0.0000669 seconds
+2019-03-15T20:44:58.801+0900: 43.581: Application time: 0.9741849 seconds
+2019-03-15T20:44:58.801+0900: 43.581: [GC (Allocation Failure) 2019-03-15T20:44:58.801+0900: 43.581: [DefNew: 212012K->20990K(235968K), 0.0529958 secs] 487780K->296757K(569656K), 0.0531420 secs] [Times: user=0.05 sys=0.00, real=0.05 secs] 
+2019-03-15T20:44:58.854+0900: 43.634: Total time for which application threads were stopped: 0.0533746 seconds, Stopping threads took: 0.0000784 seconds
+2019-03-15T20:44:59.762+0900: 44.542: Application time: 0.9075289 seconds
+2019-03-15T20:44:59.762+0900: 44.542: [GC (Allocation Failure) 2019-03-15T20:44:59.762+0900: 44.542: [DefNew: 230782K->2215K(235968K), 0.0279095 secs] 506549K->295780K(569656K), 0.0279953 secs] [Times: user=0.02 sys=0.00, real=0.03 secs] 
+2019-03-15T20:44:59.790+0900: 44.570: Total time for which application threads were stopped: 0.0281054 seconds, Stopping threads took: 0.0000224 seconds
+2019-03-15T20:45:00.695+0900: 45.475: Application time: 0.9056628 seconds
+2019-03-15T20:45:00.695+0900: 45.476: [GC (Allocation Failure) 2019-03-15T20:45:00.695+0900: 45.476: [DefNew: 212007K->3124K(235968K), 0.0038373 secs] 505572K->296689K(569656K), 0.0039070 secs] [Times: user=0.02 sys=0.00, real=0.00 secs] 
+2019-03-15T20:45:00.699+0900: 45.480: Total time for which application threads were stopped: 0.0040187 seconds, Stopping threads took: 0.0000230 seconds
+2019-03-15T20:45:01.696+0900: 46.476: Application time: 0.9966494 seconds
+2019-03-15T20:45:01.696+0900: 46.476: [GC (Allocation Failure) 2019-03-15T20:45:01.696+0900: 46.476: [DefNew: 212916K->2158K(235968K), 0.0075611 secs] 506481K->295723K(569656K), 0.0077608 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+2019-03-15T20:45:01.704+0900: 46.484: Total time for which application threads were stopped: 0.0080877 seconds, Stopping threads took: 0.0000815 seconds
+2019-03-15T20:45:02.638+0900: 47.419: Application time: 0.9344201 seconds
+2019-03-15T20:45:02.639+0900: 47.419: [GC (Allocation Failure) 2019-03-15T20:45:02.639+0900: 47.419: [DefNew: 211950K->14923K(235968K), 0.0498670 secs] 505515K->308487K(569656K), 0.0500141 secs] [Times: user=0.05 sys=0.00, real=0.05 secs] 
+2019-03-15T20:45:02.689+0900: 47.469: Total time for which application threads were stopped: 0.0502377 seconds, Stopping threads took: 0.0000631 seconds
+2019-03-15T20:45:03.621+0900: 48.400: Application time: 0.9310599 seconds
+2019-03-15T20:45:03.621+0900: 48.400: [GC (Allocation Failure) 2019-03-15T20:45:03.621+0900: 48.400: [DefNew: 224715K->2250K(235968K), 0.0262138 secs] 518279K->309656K(569656K), 0.0263115 secs] [Times: user=0.01 sys=0.00, real=0.03 secs] 
+2019-03-15T20:45:03.647+0900: 48.426: Total time for which application threads were stopped: 0.0264474 seconds, Stopping threads took: 0.0000327 seconds
+2019-03-15T20:45:04.566+0900: 49.346: Application time: 0.9191519 seconds
+2019-03-15T20:45:04.566+0900: 49.346: [GC (Allocation Failure) 2019-03-15T20:45:04.567+0900: 49.346: [DefNew: 212042K->2902K(235968K), 0.0139641 secs] 519448K->310308K(569656K), 0.0141659 secs] [Times: user=0.02 sys=0.00, real=0.02 secs] 
+2019-03-15T20:45:04.581+0900: 49.360: Total time for which application threads were stopped: 0.0144984 seconds, Stopping threads took: 0.0000809 seconds
+2019-03-15T20:45:05.487+0900: 50.266: Application time: 0.9060012 seconds
+2019-03-15T20:45:05.487+0900: 50.266: [GC (Allocation Failure) 2019-03-15T20:45:05.487+0900: 50.266: [DefNew: 212694K->13864K(235968K), 0.0327508 secs] 520100K->321270K(569656K), 0.0328882 secs] [Times: user=0.05 sys=0.00, real=0.03 secs] 
+2019-03-15T20:45:05.520+0900: 50.299: Total time for which application threads were stopped: 0.0330668 seconds, Stopping threads took: 0.0000342 seconds
+2019-03-15T20:45:06.411+0900: 51.191: Application time: 0.8916748 seconds
+2019-03-15T20:45:06.412+0900: 51.191: [GC (Allocation Failure) 2019-03-15T20:45:06.412+0900: 51.191: [DefNew: 223656K->3003K(235968K), 0.0476849 secs] 531062K->322274K(569656K), 0.0478491 secs] [Times: user=0.05 sys=0.00, real=0.05 secs] 
+2019-03-15T20:45:06.460+0900: 51.239: Total time for which application threads were stopped: 0.0481452 seconds, Stopping threads took: 0.0000952 seconds
+2019-03-15T20:45:07.388+0900: 52.167: Application time: 0.9282352 seconds
+2019-03-15T20:45:07.388+0900: 52.167: [GC (Allocation Failure) 2019-03-15T20:45:07.388+0900: 52.167: [DefNew: 212795K->2189K(235968K), 0.0061065 secs] 532066K->321460K(569656K), 0.0062312 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+2019-03-15T20:45:07.394+0900: 52.174: Total time for which application threads were stopped: 0.0064402 seconds, Stopping threads took: 0.0000501 seconds
+2019-03-15T20:45:08.304+0900: 53.084: Application time: 0.9098314 seconds
+2019-03-15T20:45:08.304+0900: 53.084: [GC (Allocation Failure) 2019-03-15T20:45:08.304+0900: 53.084: [DefNew: 211981K->3189K(235968K), 0.0107481 secs] 531252K->322460K(569656K), 0.0109012 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+2019-03-15T20:45:08.315+0900: 53.095: Total time for which application threads were stopped: 0.0111596 seconds, Stopping threads took: 0.0000578 seconds
+2019-03-15T20:45:09.230+0900: 54.010: Application time: 0.9148462 seconds
+2019-03-15T20:45:09.230+0900: 54.010: [GC (Allocation Failure) 2019-03-15T20:45:09.230+0900: 54.010: [DefNew: 212981K->12091K(235968K), 0.0351730 secs] 532252K->331362K(569656K), 0.0353179 secs] [Times: user=0.05 sys=0.00, real=0.04 secs] 
+2019-03-15T20:45:09.266+0900: 54.045: Total time for which application threads were stopped: 0.0355826 seconds, Stopping threads took: 0.0000796 seconds
+2019-03-15T20:45:10.135+0900: 54.915: Application time: 0.8695689 seconds
+2019-03-15T20:45:10.135+0900: 54.915: [GC (Allocation Failure) 2019-03-15T20:45:10.135+0900: 54.915: [DefNew: 221883K->13007K(235968K), 0.0147435 secs] 541154K->332278K(569656K), 0.0148536 secs] [Times: user=0.02 sys=0.00, real=0.02 secs] 
+2019-03-15T20:45:10.150+0900: 54.930: Total time for which application threads were stopped: 0.0149634 seconds, Stopping threads took: 0.0000193 seconds
+2019-03-15T20:45:11.070+0900: 55.849: Application time: 0.9195379 seconds
+2019-03-15T20:45:11.070+0900: 55.849: [GC (Allocation Failure) 2019-03-15T20:45:11.070+0900: 55.849: [DefNew: 222799K->12045K(235968K), 0.0135196 secs] 542070K->331316K(569656K), 0.0136011 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+2019-03-15T20:45:11.083+0900: 55.863: Total time for which application threads were stopped: 0.0136981 seconds, Stopping threads took: 0.0000184 seconds
+2019-03-15T20:45:12.097+0900: 56.877: Application time: 1.0139267 seconds
+2019-03-15T20:45:12.097+0900: 56.877: [GC (Allocation Failure) 2019-03-15T20:45:12.097+0900: 56.877: [DefNew: 221837K->18983K(235968K), 0.0213722 secs] 541108K->338254K(569656K), 0.0214596 secs] [Times: user=0.03 sys=0.00, real=0.02 secs] 
+2019-03-15T20:45:12.119+0900: 56.898: Total time for which application threads were stopped: 0.0215697 seconds, Stopping threads took: 0.0000299 seconds
+2019-03-15T20:45:13.022+0900: 57.802: Application time: 0.9036095 seconds
+2019-03-15T20:45:13.023+0900: 57.802: [GC (Allocation Failure) 2019-03-15T20:45:13.023+0900: 57.802: [DefNew: 228775K->10190K(235968K), 0.0674958 secs] 548046K->339348K(569656K), 0.0676525 secs] [Times: user=0.06 sys=0.00, real=0.07 secs] 
+2019-03-15T20:45:13.090+0900: 57.870: Total time for which application threads were stopped: 0.0679247 seconds, Stopping threads took: 0.0000799 seconds
+2019-03-15T20:45:13.985+0900: 58.765: Application time: 0.8951454 seconds
+2019-03-15T20:45:13.986+0900: 58.765: [GC (Allocation Failure) 2019-03-15T20:45:13.986+0900: 58.765: [DefNew: 219982K->10811K(235968K), 0.0168030 secs] 549140K->339969K(569656K), 0.0168960 secs] [Times: user=0.02 sys=0.00, real=0.02 secs] 
+2019-03-15T20:45:14.002+0900: 58.782: Total time for which application threads were stopped: 0.0170413 seconds, Stopping threads took: 0.0000495 seconds
+2019-03-15T20:45:14.894+0900: 59.674: Application time: 0.8913762 seconds
+2019-03-15T20:45:14.894+0900: 59.674: [GC (Allocation Failure) 2019-03-15T20:45:14.894+0900: 59.674: [DefNew: 220603K->15853K(235968K), 0.0420940 secs] 549761K->345012K(569656K), 0.0422548 secs] [Times: user=0.05 sys=0.00, real=0.04 secs] 
+2019-03-15T20:45:14.936+0900: 59.716: Total time for which application threads were stopped: 0.0425052 seconds, Stopping threads took: 0.0000812 seconds
+2019-03-15T20:45:15.795+0900: 60.575: Application time: 0.8586811 seconds
+2019-03-15T20:45:15.795+0900: 60.575: [GC (Allocation Failure) 2019-03-15T20:45:15.795+0900: 60.575: [DefNew: 225645K->12944K(235968K), 0.0445455 secs]2019-03-15T20:45:15.840+0900: 60.620: [Tenured: 337067K->213445K(337144K), 0.3990401 secs] 554804K->213445K(573112K), [Metaspace: 3921K->3921K(1056768K)], 0.4437719 secs] [Times: user=0.45 sys=0.00, real=0.44 secs] 
+2019-03-15T20:45:16.239+0900: 61.019: Total time for which application threads were stopped: 0.4439287 seconds, Stopping threads took: 0.0000482 seconds
+2019-03-15T20:45:17.239+0900: 62.018: Application time: 0.9996940 seconds
+2019-03-15T20:45:17.239+0900: 62.018: Total time for which application threads were stopped: 0.0000355 seconds, Stopping threads took: 0.0000180 seconds
+2019-03-15T20:45:17.275+0900: 62.054: Application time: 0.0360192 seconds
+2019-03-15T20:45:17.275+0900: 62.054: [GC (Allocation Failure) 2019-03-15T20:45:17.275+0900: 62.055: [DefNew: 209792K->1418K(235968K), 0.0018932 secs] 423237K->214864K(591712K), 0.0019719 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2019-03-15T20:45:17.277+0900: 62.057: Total time for which application threads were stopped: 0.0020720 seconds, Stopping threads took: 0.0000202 seconds
+2019-03-15T20:45:18.255+0900: 63.034: Application time: 0.9779414 seconds
+2019-03-15T20:45:18.255+0900: 63.035: [GC (Allocation Failure) 2019-03-15T20:45:18.255+0900: 63.035: [DefNew: 211210K->2391K(235968K), 0.0092531 secs] 424656K->215837K(591712K), 0.0094608 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+2019-03-15T20:45:18.264+0900: 63.044: Total time for which application threads were stopped: 0.0097380 seconds, Stopping threads took: 0.0000414 seconds
+2019-03-15T20:45:19.175+0900: 63.955: Application time: 0.9104493 seconds
+2019-03-15T20:45:19.175+0900: 63.955: [GC (Allocation Failure) 2019-03-15T20:45:19.175+0900: 63.955: [DefNew: 212183K->13279K(235968K), 0.0150032 secs] 425629K->226725K(591712K), 0.0150921 secs] [Times: user=0.02 sys=0.00, real=0.02 secs] 
+2019-03-15T20:45:19.190+0900: 63.970: Total time for which application threads were stopped: 0.0151876 seconds, Stopping threads took: 0.0000156 seconds
+2019-03-15T20:45:20.062+0900: 64.842: Application time: 0.8724921 seconds
+2019-03-15T20:45:20.063+0900: 64.843: [GC (Allocation Failure) 2019-03-15T20:45:20.063+0900: 64.843: [DefNew: 223071K->13012K(235968K), 0.0605489 secs] 436517K->227634K(591712K), 0.0608465 secs] [Times: user=0.06 sys=0.00, real=0.06 secs] 
+2019-03-15T20:45:20.123+0900: 64.903: Total time for which application threads were stopped: 0.0611227 seconds, Stopping threads took: 0.0000827 seconds
+2019-03-15T20:45:21.117+0900: 65.896: Application time: 0.9927091 seconds
+2019-03-15T20:45:21.117+0900: 65.896: [GC (Allocation Failure) 2019-03-15T20:45:21.117+0900: 65.896: [DefNew: 222804K->12046K(235968K), 0.0403726 secs] 437426K->226668K(591712K), 0.0405508 secs] [Times: user=0.05 sys=0.00, real=0.04 secs] 
+2019-03-15T20:45:21.158+0900: 65.937: Total time for which application threads were stopped: 0.0408382 seconds, Stopping threads took: 0.0000824 seconds
+2019-03-15T20:45:22.031+0900: 66.810: Application time: 0.8732314 seconds
+2019-03-15T20:45:22.031+0900: 66.810: [GC (Allocation Failure) 2019-03-15T20:45:22.031+0900: 66.811: [DefNew: 221838K->26175K(235968K), 0.0604559 secs] 436460K->243387K(591712K), 0.0606179 secs] [Times: user=0.06 sys=0.00, real=0.06 secs] 
+2019-03-15T20:45:22.092+0900: 66.871: Total time for which application threads were stopped: 0.0608658 seconds, Stopping threads took: 0.0000821 seconds
+2019-03-15T20:45:23.015+0900: 67.794: Application time: 0.9226761 seconds
+2019-03-15T20:45:23.015+0900: 67.794: [GC (Allocation Failure) 2019-03-15T20:45:23.015+0900: 67.794: [DefNew: 235967K->2250K(235968K), 0.0304231 secs] 453179K->242578K(591712K), 0.0305065 secs] [Times: user=0.03 sys=0.00, real=0.03 secs] 
+2019-03-15T20:45:23.045+0900: 67.824: Total time for which application threads were stopped: 0.0306029 seconds, Stopping threads took: 0.0000162 seconds
+2019-03-15T20:45:23.923+0900: 68.703: Application time: 0.8781147 seconds
+2019-03-15T20:45:23.923+0900: 68.703: [GC (Allocation Failure) 2019-03-15T20:45:23.923+0900: 68.703: [DefNew: 212042K->924K(235968K), 0.0017989 secs] 452370K->241253K(591712K), 0.0018667 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2019-03-15T20:45:23.925+0900: 68.705: Total time for which application threads were stopped: 0.0020023 seconds, Stopping threads took: 0.0000361 seconds
+2019-03-15T20:45:24.906+0900: 69.685: Application time: 0.9802958 seconds
+2019-03-15T20:45:24.906+0900: 69.685: [GC (Allocation Failure) 2019-03-15T20:45:24.906+0900: 69.685: [DefNew: 210716K->1999K(235968K), 0.0024412 secs] 451045K->242328K(591712K), 0.0024913 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+2019-03-15T20:45:24.908+0900: 69.687: Total time for which application threads were stopped: 0.0025967 seconds, Stopping threads took: 0.0000314 seconds
+2019-03-15T20:45:25.860+0900: 70.639: Application time: 0.9513861 seconds
+2019-03-15T20:45:25.860+0900: 70.639: [GC (Allocation Failure) 2019-03-15T20:45:25.860+0900: 70.639: [DefNew: 211791K->10914K(235968K), 0.0207293 secs] 452120K->251242K(591712K), 0.0208273 secs] [Times: user=0.03 sys=0.00, real=0.02 secs] 
+2019-03-15T20:45:25.881+0900: 70.660: Total time for which application threads were stopped: 0.0209732 seconds, Stopping threads took: 0.0000488 seconds
+2019-03-15T20:45:26.878+0900: 71.657: Application time: 0.9974804 seconds
+2019-03-15T20:45:26.878+0900: 71.657: [GC (Allocation Failure) 2019-03-15T20:45:26.878+0900: 71.657: [DefNew: 220706K->12077K(235968K), 0.0388595 secs] 461034K->252406K(591712K), 0.0390171 secs] [Times: user=0.03 sys=0.00, real=0.04 secs] 
+2019-03-15T20:45:26.917+0900: 71.697: Total time for which application threads were stopped: 0.0392719 seconds, Stopping threads took: 0.0000591 seconds
+2019-03-15T20:45:27.863+0900: 72.642: Application time: 0.9453265 seconds
+2019-03-15T20:45:27.863+0900: 72.642: [GC (Allocation Failure) 2019-03-15T20:45:27.863+0900: 72.642: [DefNew: 221869K->13077K(235968K), 0.0364696 secs] 462198K->253406K(591712K), 0.0366074 secs] [Times: user=0.03 sys=0.00, real=0.04 secs] 
+2019-03-15T20:45:27.899+0900: 72.679: Total time for which application threads were stopped: 0.0368662 seconds, Stopping threads took: 0.0000827 seconds
+2019-03-15T20:45:28.896+0900: 73.676: Application time: 0.9968149 seconds
+2019-03-15T20:45:28.896+0900: 73.676: [GC (Allocation Failure) 2019-03-15T20:45:28.897+0900: 73.676: [DefNew: 222869K->18025K(235968K), 0.0774331 secs] 463198K->258353K(591712K), 0.0776091 secs] [Times: user=0.08 sys=0.00, real=0.08 secs] 
+2019-03-15T20:45:28.974+0900: 73.753: Total time for which application threads were stopped: 0.0778810 seconds, Stopping threads took: 0.0000896 seconds
+2019-03-15T20:45:29.956+0900: 74.735: Application time: 0.9816948 seconds
+2019-03-15T20:45:29.956+0900: 74.735: [GC (Allocation Failure) 2019-03-15T20:45:29.956+0900: 74.735: [DefNew: 227817K->11029K(235968K), 0.0390454 secs] 468145K->261246K(591712K), 0.0391335 secs] [Times: user=0.03 sys=0.00, real=0.04 secs] 
+2019-03-15T20:45:29.995+0900: 74.774: Total time for which application threads were stopped: 0.0392703 seconds, Stopping threads took: 0.0000423 seconds
+2019-03-15T20:45:30.909+0900: 75.688: Application time: 0.9139303 seconds
+2019-03-15T20:45:30.909+0900: 75.689: [GC (Allocation Failure) 2019-03-15T20:45:30.909+0900: 75.689: [DefNew: 220821K->10068K(235968K), 0.0326991 secs] 471038K->260285K(591712K), 0.0328553 secs] [Times: user=0.03 sys=0.00, real=0.03 secs] 
+2019-03-15T20:45:30.942+0900: 75.721: Total time for which application threads were stopped: 0.0331184 seconds, Stopping threads took: 0.0000585 seconds
+2019-03-15T20:45:31.888+0900: 76.668: Application time: 0.9463834 seconds
+2019-03-15T20:45:31.889+0900: 76.668: [GC (Allocation Failure) 2019-03-15T20:45:31.889+0900: 76.668: [DefNew: 219860K->11019K(235968K), 0.0511030 secs] 470077K->261236K(591712K), 0.0512734 secs] [Times: user=0.05 sys=0.00, real=0.05 secs] 
+2019-03-15T20:45:31.940+0900: 76.719: Total time for which application threads were stopped: 0.0515512 seconds, Stopping threads took: 0.0000815 seconds
+2019-03-15T20:45:32.927+0900: 77.707: Application time: 0.9873957 seconds
+2019-03-15T20:45:32.927+0900: 77.707: [GC (Allocation Failure) 2019-03-15T20:45:32.928+0900: 77.707: [DefNew: 220811K->20095K(235968K), 0.0481480 secs] 471028K->270312K(591712K), 0.0483001 secs] [Times: user=0.05 sys=0.01, real=0.05 secs] 
+2019-03-15T20:45:32.976+0900: 77.755: Total time for which application threads were stopped: 0.0485162 seconds, Stopping threads took: 0.0000684 seconds
+2019-03-15T20:45:33.948+0900: 78.728: Application time: 0.9725910 seconds
+2019-03-15T20:45:33.948+0900: 78.728: [GC (Allocation Failure) 2019-03-15T20:45:33.948+0900: 78.728: [DefNew: 229887K->12789K(235968K), 0.0385982 secs] 480104K->270916K(591712K), 0.0386900 secs] [Times: user=0.03 sys=0.00, real=0.04 secs] 
+2019-03-15T20:45:33.987+0900: 78.767: Total time for which application threads were stopped: 0.0388137 seconds, Stopping threads took: 0.0000230 seconds
+2019-03-15T20:45:34.995+0900: 79.774: Application time: 1.0076125 seconds
+2019-03-15T20:45:34.995+0900: 79.775: [GC (Allocation Failure) 2019-03-15T20:45:34.995+0900: 79.775: [DefNew: 222581K->9922K(235968K), 0.0421506 secs] 480708K->268049K(591712K), 0.0423429 secs] [Times: user=0.05 sys=0.00, real=0.04 secs] 
+2019-03-15T20:45:35.037+0900: 79.817: Total time for which application threads were stopped: 0.0426704 seconds, Stopping threads took: 0.0001005 seconds
+2019-03-15T20:45:36.000+0900: 80.779: Application time: 0.9622260 seconds
+2019-03-15T20:45:36.000+0900: 80.779: [GC (Allocation Failure) 2019-03-15T20:45:36.000+0900: 80.779: [DefNew: 219714K->20852K(235968K), 0.0330618 secs] 477841K->278980K(591712K), 0.0331451 secs] [Times: user=0.05 sys=0.00, real=0.03 secs] 
+2019-03-15T20:45:36.033+0900: 80.813: Total time for which application threads were stopped: 0.0332848 seconds, Stopping threads took: 0.0000358 seconds
+2019-03-15T20:45:37.050+0900: 81.830: Application time: 1.0172042 seconds
+2019-03-15T20:45:37.050+0900: 81.830: [GC (Allocation Failure) 2019-03-15T20:45:37.050+0900: 81.830: [DefNew: 230644K->10129K(235968K), 0.0480382 secs] 488772K->278144K(591712K), 0.0481682 secs] [Times: user=0.05 sys=0.00, real=0.05 secs] 
+2019-03-15T20:45:37.098+0900: 81.878: Total time for which application threads were stopped: 0.0484093 seconds, Stopping threads took: 0.0000893 seconds
+2019-03-15T20:45:38.069+0900: 82.849: Application time: 0.9705681 seconds
+2019-03-15T20:45:38.069+0900: 82.849: [GC (Allocation Failure) 2019-03-15T20:45:38.069+0900: 82.849: [DefNew: 219921K->11102K(235968K), 0.0328857 secs] 487936K->279117K(591712K), 0.0330307 secs] [Times: user=0.03 sys=0.00, real=0.03 secs] 
+2019-03-15T20:45:38.102+0900: 82.882: Total time for which application threads were stopped: 0.0332745 seconds, Stopping threads took: 0.0000687 seconds
+2019-03-15T20:45:39.133+0900: 83.912: Application time: 1.0299830 seconds
+2019-03-15T20:45:39.133+0900: 83.912: [GC (Allocation Failure) 2019-03-15T20:45:39.134+0900: 83.912: [DefNew: 220894K->14080K(235968K), 0.0475997 secs] 488909K->282095K(591712K), 0.0477679 secs] [Times: user=0.05 sys=0.00, real=0.05 secs] 
+2019-03-15T20:45:39.181+0900: 83.960: Total time for which application threads were stopped: 0.0480323 seconds, Stopping threads took: 0.0000815 seconds
+2019-03-15T20:45:40.131+0900: 84.910: Application time: 0.9500997 seconds
+2019-03-15T20:45:40.132+0900: 84.910: [GC (Allocation Failure) 2019-03-15T20:45:40.132+0900: 84.911: [DefNew: 223872K->11035K(235968K), 0.0629182 secs] 491887K->286959K(591712K), 0.0630883 secs] [Times: user=0.06 sys=0.00, real=0.06 secs] 
+2019-03-15T20:45:40.195+0900: 84.974: Total time for which application threads were stopped: 0.0633515 seconds, Stopping threads took: 0.0000802 seconds
+2019-03-15T20:45:41.123+0900: 85.902: Application time: 0.9284601 seconds
+2019-03-15T20:45:41.123+0900: 85.902: [GC (Allocation Failure) 2019-03-15T20:45:41.123+0900: 85.902: [DefNew: 220827K->10069K(235968K), 0.0490304 secs] 496751K->285994K(591712K), 0.0492667 secs] [Times: user=0.05 sys=0.00, real=0.05 secs] 
+2019-03-15T20:45:41.173+0900: 85.952: Total time for which application threads were stopped: 0.0496421 seconds, Stopping threads took: 0.0000809 seconds
+2019-03-15T20:45:42.128+0900: 86.907: Application time: 0.9552253 seconds
+2019-03-15T20:45:42.128+0900: 86.907: [GC (Allocation Failure) 2019-03-15T20:45:42.128+0900: 86.907: [DefNew: 219861K->12947K(235968K), 0.0334649 secs] 495786K->288871K(591712K), 0.0335942 secs] [Times: user=0.03 sys=0.00, real=0.03 secs] 
+2019-03-15T20:45:42.162+0900: 86.941: Total time for which application threads were stopped: 0.0338051 seconds, Stopping threads took: 0.0000498 seconds
+2019-03-15T20:45:43.087+0900: 87.866: Application time: 0.9249972 seconds
+2019-03-15T20:45:43.087+0900: 87.866: [GC (Allocation Failure) 2019-03-15T20:45:43.087+0900: 87.866: [DefNew: 222739K->14115K(235968K), 0.0160370 secs] 498663K->290040K(591712K), 0.0161210 secs] [Times: user=0.02 sys=0.00, real=0.02 secs] 
+2019-03-15T20:45:43.103+0900: 87.882: Total time for which application threads were stopped: 0.0162158 seconds, Stopping threads took: 0.0000137 seconds
+2019-03-15T20:45:43.969+0900: 88.748: Application time: 0.8660696 seconds
+2019-03-15T20:45:43.969+0900: 88.748: [GC (Allocation Failure) 2019-03-15T20:45:43.969+0900: 88.748: [DefNew: 223907K->10812K(235968K), 0.0403219 secs] 499832K->292669K(591712K), 0.0404522 secs] [Times: user=0.05 sys=0.00, real=0.04 secs] 
+2019-03-15T20:45:44.010+0900: 88.789: Total time for which application threads were stopped: 0.0406180 seconds, Stopping threads took: 0.0000314 seconds
+2019-03-15T20:45:44.947+0900: 89.726: Application time: 0.9370239 seconds
+2019-03-15T20:45:44.947+0900: 89.726: [GC (Allocation Failure) 2019-03-15T20:45:44.947+0900: 89.726: [DefNew: 220604K->7933K(235968K), 0.0098751 secs] 502461K->289790K(591712K), 0.0099389 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+2019-03-15T20:45:44.957+0900: 89.736: Total time for which application threads were stopped: 0.0100365 seconds, Stopping threads took: 0.0000146 seconds
+2019-03-15T20:45:45.784+0900: 90.563: Application time: 0.8276755 seconds
+2019-03-15T20:45:45.784+0900: 90.563: [GC (Allocation Failure) 2019-03-15T20:45:45.784+0900: 90.563: [DefNew: 217725K->14868K(235968K), 0.0179917 secs] 499582K->296725K(591712K), 0.0180872 secs] [Times: user=0.02 sys=0.00, real=0.02 secs] 
+2019-03-15T20:45:45.802+0900: 90.582: Total time for which application threads were stopped: 0.0182026 seconds, Stopping threads took: 0.0000320 seconds
+2019-03-15T20:45:46.640+0900: 91.419: Application time: 0.8377596 seconds
+2019-03-15T20:45:46.640+0900: 91.420: [GC (Allocation Failure) 2019-03-15T20:45:46.640+0900: 91.420: [DefNew: 224660K->10099K(235968K), 0.0382464 secs] 506517K->295912K(591712K), 0.0384128 secs] [Times: user=0.03 sys=0.02, real=0.04 secs] 
+2019-03-15T20:45:46.679+0900: 91.458: Total time for which application threads were stopped: 0.0386557 seconds, Stopping threads took: 0.0000821 seconds
+2019-03-15T20:45:47.627+0900: 92.406: Application time: 0.9482370 seconds
+2019-03-15T20:45:47.627+0900: 92.406: [GC (Allocation Failure) 2019-03-15T20:45:47.627+0900: 92.406: [DefNew: 219891K->11099K(235968K), 0.0255075 secs] 505704K->296911K(591712K), 0.0256347 secs] [Times: user=0.02 sys=0.00, real=0.03 secs] 
+2019-03-15T20:45:47.653+0900: 92.432: Total time for which application threads were stopped: 0.0258232 seconds, Stopping threads took: 0.0000442 seconds
+2019-03-15T20:45:48.516+0900: 93.295: Application time: 0.8630176 seconds
+2019-03-15T20:45:48.516+0900: 93.295: [GC (Allocation Failure) 2019-03-15T20:45:48.516+0900: 93.295: [DefNew: 220891K->10113K(235968K), 0.0207831 secs] 506703K->295926K(591712K), 0.0208957 secs] [Times: user=0.01 sys=0.00, real=0.02 secs] 
+2019-03-15T20:45:48.537+0900: 93.316: Total time for which application threads were stopped: 0.0210665 seconds, Stopping threads took: 0.0000426 seconds
+2019-03-15T20:45:49.514+0900: 94.293: Application time: 0.9769592 seconds
+2019-03-15T20:45:49.514+0900: 94.293: [GC (Allocation Failure) 2019-03-15T20:45:49.514+0900: 94.293: [DefNew: 219905K->20917K(235968K), 0.0515222 secs] 505718K->306730K(591712K), 0.0516600 secs] [Times: user=0.05 sys=0.00, real=0.05 secs] 
+2019-03-15T20:45:49.566+0900: 94.345: Total time for which application threads were stopped: 0.0518746 seconds, Stopping threads took: 0.0000672 seconds
+2019-03-15T20:45:50.531+0900: 95.310: Application time: 0.9654173 seconds
+2019-03-15T20:45:50.531+0900: 95.311: [GC (Allocation Failure) 2019-03-15T20:45:50.531+0900: 95.311: [DefNew: 230709K->10069K(235968K), 0.0468629 secs] 516522K->303791K(591712K), 0.0470212 secs] [Times: user=0.05 sys=0.00, real=0.05 secs] 
+2019-03-15T20:45:50.578+0900: 95.358: Total time for which application threads were stopped: 0.0472672 seconds, Stopping threads took: 0.0000830 seconds
+2019-03-15T20:45:51.504+0900: 96.283: Application time: 0.9252242 seconds
+2019-03-15T20:45:51.504+0900: 96.283: [GC (Allocation Failure) 2019-03-15T20:45:51.504+0900: 96.283: [DefNew: 219861K->12997K(235968K), 0.0448630 secs] 513583K->306719K(591712K), 0.0450338 secs] [Times: user=0.05 sys=0.00, real=0.05 secs] 
+2019-03-15T20:45:51.549+0900: 96.328: Total time for which application threads were stopped: 0.0453420 seconds, Stopping threads took: 0.0000967 seconds
+2019-03-15T20:45:52.490+0900: 97.270: Application time: 0.9415657 seconds
+2019-03-15T20:45:52.491+0900: 97.270: [GC (Allocation Failure) 2019-03-15T20:45:52.491+0900: 97.270: [DefNew: 222789K->22073K(235968K), 0.0769016 secs] 516511K->315795K(591712K), 0.0770670 secs] [Times: user=0.06 sys=0.00, real=0.08 secs] 
+2019-03-15T20:45:52.568+0900: 97.347: Total time for which application threads were stopped: 0.0773342 seconds, Stopping threads took: 0.0000827 seconds
+2019-03-15T20:45:53.547+0900: 98.327: Application time: 0.9798370 seconds
+2019-03-15T20:45:53.548+0900: 98.327: [GC (Allocation Failure) 2019-03-15T20:45:53.548+0900: 98.327: [DefNew: 231865K->10812K(235968K), 0.0535591 secs] 525587K->314422K(591712K), 0.0536990 secs] [Times: user=0.06 sys=0.00, real=0.05 secs] 
+2019-03-15T20:45:53.601+0900: 98.381: Total time for which application threads were stopped: 0.0538866 seconds, Stopping threads took: 0.0000504 seconds
+2019-03-15T20:45:54.590+0900: 99.369: Application time: 0.9883368 seconds
+2019-03-15T20:45:54.590+0900: 99.369: [GC (Allocation Failure) 2019-03-15T20:45:54.590+0900: 99.370: [DefNew: 220604K->11899K(235968K), 0.0418424 secs] 524214K->315510K(591712K), 0.0420573 secs] [Times: user=0.05 sys=0.00, real=0.04 secs] 
+2019-03-15T20:45:54.632+0900: 99.412: Total time for which application threads were stopped: 0.0423279 seconds, Stopping threads took: 0.0000501 seconds
+2019-03-15T20:45:55.607+0900: 100.386: Application time: 0.9746549 seconds
+2019-03-15T20:45:55.607+0900: 100.386: [GC (Allocation Failure) 2019-03-15T20:45:55.607+0900: 100.386: [DefNew: 221691K->10970K(235968K), 0.0128214 secs] 525302K->314581K(591712K), 0.0129010 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+2019-03-15T20:45:55.621+0900: 100.399: Total time for which application threads were stopped: 0.0130096 seconds, Stopping threads took: 0.0000311 seconds
+2019-03-15T20:45:56.589+0900: 101.368: Application time: 0.9685997 seconds
+2019-03-15T20:45:56.589+0900: 101.368: [GC (Allocation Failure) 2019-03-15T20:45:56.590+0900: 101.368: [DefNew: 220762K->20017K(235968K), 0.0617793 secs] 524373K->323627K(591712K), 0.0619559 secs] [Times: user=0.06 sys=0.00, real=0.06 secs] 
+2019-03-15T20:45:56.652+0900: 101.430: Total time for which application threads were stopped: 0.0622200 seconds, Stopping threads took: 0.0000802 seconds
+2019-03-15T20:45:57.640+0900: 102.419: Application time: 0.9885185 seconds
+2019-03-15T20:45:57.640+0900: 102.419: [GC (Allocation Failure) 2019-03-15T20:45:57.640+0900: 102.419: [DefNew: 229809K->11103K(235968K), 0.0556802 secs] 533419K->324602K(591712K), 0.0558273 secs] [Times: user=0.05 sys=0.00, real=0.06 secs] 
+2019-03-15T20:45:57.696+0900: 102.475: Total time for which application threads were stopped: 0.0560444 seconds, Stopping threads took: 0.0000662 seconds
+2019-03-15T20:45:58.685+0900: 103.464: Application time: 0.9890628 seconds
+2019-03-15T20:45:58.685+0900: 103.464: [GC (Allocation Failure) 2019-03-15T20:45:58.685+0900: 103.464: [DefNew: 220895K->10125K(235968K), 0.0327200 secs] 534394K->323624K(591712K), 0.0328696 secs] [Times: user=0.03 sys=0.00, real=0.03 secs] 
+2019-03-15T20:45:58.718+0900: 103.497: Total time for which application threads were stopped: 0.0331231 seconds, Stopping threads took: 0.0000588 seconds
+2019-03-15T20:45:59.703+0900: 104.482: Application time: 0.9851645 seconds
+2019-03-15T20:45:59.703+0900: 104.482: [GC (Allocation Failure) 2019-03-15T20:45:59.704+0900: 104.482: [DefNew: 219917K->20922K(235968K), 0.0523670 secs] 533416K->334420K(591712K), 0.0525088 secs] [Times: user=0.05 sys=0.00, real=0.05 secs] 
+2019-03-15T20:45:59.756+0900: 104.535: Total time for which application threads were stopped: 0.0526752 seconds, Stopping threads took: 0.0000299 seconds
+2019-03-15T20:46:00.687+0900: 105.466: Application time: 0.9308863 seconds
+2019-03-15T20:46:00.687+0900: 105.466: [GC (Allocation Failure) 2019-03-15T20:46:00.687+0900: 105.466: [DefNew: 230714K->12046K(235968K), 0.0325275 secs] 544212K->333455K(591712K), 0.0326624 secs] [Times: user=0.03 sys=0.00, real=0.03 secs] 
+2019-03-15T20:46:00.720+0900: 105.498: Total time for which application threads were stopped: 0.0328058 seconds, Stopping threads took: 0.0000407 seconds
+2019-03-15T20:46:01.708+0900: 106.487: Application time: 0.9887608 seconds
+2019-03-15T20:46:01.708+0900: 106.487: [GC (Allocation Failure) 2019-03-15T20:46:01.709+0900: 106.487: [DefNew: 221838K->12945K(235968K), 0.0421037 secs] 543247K->334355K(591712K), 0.0423096 secs] [Times: user=0.05 sys=0.00, real=0.04 secs] 
+2019-03-15T20:46:01.751+0900: 106.530: Total time for which application threads were stopped: 0.0425631 seconds, Stopping threads took: 0.0000585 seconds
+2019-03-15T20:46:02.743+0900: 107.522: Application time: 0.9924267 seconds
+2019-03-15T20:46:02.743+0900: 107.522: [GC (Allocation Failure) 2019-03-15T20:46:02.744+0900: 107.522: [DefNew: 222737K->10160K(235968K), 0.0360849 secs] 544147K->331569K(591712K), 0.0362255 secs] [Times: user=0.03 sys=0.00, real=0.04 secs] 
+2019-03-15T20:46:02.780+0900: 107.559: Total time for which application threads were stopped: 0.0364447 seconds, Stopping threads took: 0.0000697 seconds
+2019-03-15T20:46:03.779+0900: 108.558: Application time: 0.9995176 seconds
+2019-03-15T20:46:03.779+0900: 108.558: [GC (Allocation Failure) 2019-03-15T20:46:03.779+0900: 108.558: [DefNew: 219952K->18721K(235968K), 0.0528602 secs] 541361K->340131K(591712K), 0.0529825 secs] [Times: user=0.05 sys=0.00, real=0.05 secs] 
+2019-03-15T20:46:03.832+0900: 108.611: Total time for which application threads were stopped: 0.0531740 seconds, Stopping threads took: 0.0000585 seconds
+2019-03-15T20:46:04.806+0900: 109.585: Application time: 0.9733439 seconds
+2019-03-15T20:46:04.806+0900: 109.585: [GC (Allocation Failure) 2019-03-15T20:46:04.806+0900: 109.585: [DefNew: 228513K->9909K(235968K), 0.0574829 secs] 549923K->341206K(591712K), 0.0576459 secs] [Times: user=0.06 sys=0.00, real=0.06 secs] 
+2019-03-15T20:46:04.864+0900: 109.643: Total time for which application threads were stopped: 0.0579071 seconds, Stopping threads took: 0.0000706 seconds
+2019-03-15T20:46:05.830+0900: 110.609: Application time: 0.9661684 seconds
+2019-03-15T20:46:05.830+0900: 110.609: [GC (Allocation Failure) 2019-03-15T20:46:05.830+0900: 110.609: [DefNew: 219701K->10912K(235968K), 0.0247766 secs] 550998K->342209K(591712K), 0.0248901 secs] [Times: user=0.01 sys=0.00, real=0.03 secs] 
+2019-03-15T20:46:05.855+0900: 110.634: Total time for which application threads were stopped: 0.0250864 seconds, Stopping threads took: 0.0000451 seconds
+2019-03-15T20:46:06.845+0900: 111.624: Application time: 0.9903874 seconds
+2019-03-15T20:46:06.845+0900: 111.624: [GC (Allocation Failure) 2019-03-15T20:46:06.845+0900: 111.625: [DefNew: 220704K->19986K(235968K), 0.0564478 secs] 552001K->351283K(591712K), 0.0566052 secs] [Times: user=0.05 sys=0.00, real=0.06 secs] 
+2019-03-15T20:46:06.902+0900: 111.681: Total time for which application threads were stopped: 0.0568518 seconds, Stopping threads took: 0.0000809 seconds
+2019-03-15T20:46:07.876+0900: 112.655: Application time: 0.9735943 seconds
+2019-03-15T20:46:07.876+0900: 112.655: [GC (Allocation Failure) 2019-03-15T20:46:07.876+0900: 112.655: [DefNew: 229778K->11098K(235968K), 0.0445035 secs] 561075K->350305K(591712K), 0.0447290 secs] [Times: user=0.05 sys=0.00, real=0.05 secs] 
+2019-03-15T20:46:07.921+0900: 112.700: Total time for which application threads were stopped: 0.0449265 seconds, Stopping threads took: 0.0000709 seconds
+2019-03-15T20:46:08.945+0900: 113.724: Application time: 1.0247526 seconds
+2019-03-15T20:46:08.945+0900: 113.725: [GC (Allocation Failure) 2019-03-15T20:46:08.946+0900: 113.725: [DefNew: 220890K->10113K(235968K), 0.0463783 secs] 560097K->349320K(591712K), 0.0465736 secs] [Times: user=0.05 sys=0.00, real=0.05 secs] 
+2019-03-15T20:46:08.992+0900: 113.771: Total time for which application threads were stopped: 0.0468772 seconds, Stopping threads took: 0.0000812 seconds
+2019-03-15T20:46:09.981+0900: 114.761: Application time: 0.9893657 seconds
+2019-03-15T20:46:09.982+0900: 114.761: [GC (Allocation Failure) 2019-03-15T20:46:09.982+0900: 114.761: [DefNew: 219905K->16962K(235968K), 0.0269578 secs] 559112K->356168K(591712K), 0.0270442 secs] [Times: user=0.02 sys=0.00, real=0.03 secs] 
+2019-03-15T20:46:10.009+0900: 114.788: Total time for which application threads were stopped: 0.0271745 seconds, Stopping threads took: 0.0000386 seconds
+2019-03-15T20:46:10.927+0900: 115.706: Application time: 0.9181669 seconds
+2019-03-15T20:46:10.927+0900: 115.706: [GC (Allocation Failure) 2019-03-15T20:46:10.927+0900: 115.706: [DefNew: 226754K->8091K(235968K), 0.0238249 secs] 565960K->357184K(591712K), 0.0238986 secs] [Times: user=0.03 sys=0.00, real=0.02 secs] 
+2019-03-15T20:46:10.951+0900: 115.730: Total time for which application threads were stopped: 0.0240152 seconds, Stopping threads took: 0.0000255 seconds
+2019-03-15T20:46:11.897+0900: 116.677: Application time: 0.9467398 seconds
+2019-03-15T20:46:11.898+0900: 116.677: [GC (Allocation Failure) 2019-03-15T20:46:11.898+0900: 116.677: [DefNew: 217883K->7063K(235968K), 0.0235235 secs] 566976K->356157K(591712K), 0.0236942 secs] [Times: user=0.02 sys=0.00, real=0.02 secs] 
+2019-03-15T20:46:11.921+0900: 116.701: Total time for which application threads were stopped: 0.0239571 seconds, Stopping threads took: 0.0000647 seconds
+2019-03-15T20:46:12.748+0900: 117.527: Application time: 0.8263844 seconds
+2019-03-15T20:46:12.748+0900: 117.527: [GC (Allocation Failure) 2019-03-15T20:46:12.748+0900: 117.527: [DefNew: 216855K->8229K(235968K), 0.0095535 secs] 565949K->357323K(591712K), 0.0096534 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+2019-03-15T20:46:12.758+0900: 117.537: Total time for which application threads were stopped: 0.0097964 seconds, Stopping threads took: 0.0000333 seconds
+2019-03-15T20:46:13.583+0900: 118.361: Application time: 0.8245553 seconds
+2019-03-15T20:46:13.583+0900: 118.362: [GC (Allocation Failure) 2019-03-15T20:46:13.583+0900: 118.362: [DefNew: 218021K->10811K(235968K), 0.0127825 secs] 567115K->359905K(591712K), 0.0128494 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2019-03-15T20:46:13.596+0900: 118.374: Total time for which application threads were stopped: 0.0130189 seconds, Stopping threads took: 0.0000771 seconds
+2019-03-15T20:46:14.439+0900: 119.217: Application time: 0.8425293 seconds
+2019-03-15T20:46:14.439+0900: 119.217: [GC (Allocation Failure) 2019-03-15T20:46:14.439+0900: 119.217: [DefNew: 220603K->11899K(235968K), 0.0211517 secs] 569697K->360992K(591712K), 0.0212742 secs] [Times: user=0.03 sys=0.00, real=0.02 secs] 
+2019-03-15T20:46:14.460+0900: 119.238: Total time for which application threads were stopped: 0.0214235 seconds, Stopping threads took: 0.0000308 seconds
+2019-03-15T20:46:15.335+0900: 120.114: Application time: 0.8751010 seconds
+2019-03-15T20:46:15.335+0900: 120.114: [GC (Allocation Failure) 2019-03-15T20:46:15.335+0900: 120.114: [DefNew: 221691K->10965K(235968K), 0.0124224 secs] 570784K->360059K(591712K), 0.0124861 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+2019-03-15T20:46:15.348+0900: 120.126: Total time for which application threads were stopped: 0.0126155 seconds, Stopping threads took: 0.0000330 seconds
+2019-03-15T20:46:16.299+0900: 121.078: Application time: 0.9517049 seconds
+2019-03-15T20:46:16.300+0900: 121.078: [GC (Allocation Failure) 2019-03-15T20:46:16.300+0900: 121.078: [DefNew: 220757K->18040K(235968K), 0.0422231 secs] 569851K->367133K(591712K), 0.0423842 secs] [Times: user=0.03 sys=0.00, real=0.04 secs] 
+2019-03-15T20:46:16.342+0900: 121.121: Total time for which application threads were stopped: 0.0426250 seconds, Stopping threads took: 0.0000563 seconds
+2019-03-15T20:46:17.200+0900: 121.978: Application time: 0.8575779 seconds
+2019-03-15T20:46:17.200+0900: 121.978: [GC (Allocation Failure) 2019-03-15T20:46:17.200+0900: 121.978: [DefNew: 227832K->11102K(235968K), 0.0515925 secs] 576925K->366128K(591712K), 0.0517508 secs] [Times: user=0.06 sys=0.00, real=0.05 secs] 

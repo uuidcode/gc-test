@@ -10,13 +10,15 @@ import java.util.stream.Collectors;
 
 public class GC {
     private List<String> vmOptionList = new ArrayList<>();
+    private String logFileName;
 
     public GC() {
+        this.logFileName = this.getClass().getSimpleName() + ".log";
         this.vmOptionList.add("-XX:+PrintGCDetails");
         this.vmOptionList.add("-XX:+PrintGCApplicationStoppedTime");
         this.vmOptionList.add("-XX:+PrintGCApplicationConcurrentTime");
         this.vmOptionList.add("-XX:+PrintGCDateStamps");
-        this.vmOptionList.add("-Xloggc:gc.log");
+        this.vmOptionList.add("-Xloggc:" + this.logFileName);
         this.vmOptionList.add("-Xmn256M");
         this.vmOptionList.add("-Xmx1G");
 
@@ -41,7 +43,7 @@ public class GC {
     }
 
     private void printLog() {
-        File file = new File("gc.log");
+        File file = new File(this.logFileName);
         file.delete();
 
         new Thread(() -> {
