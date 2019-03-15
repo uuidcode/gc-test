@@ -6,6 +6,6 @@ public class UseParallelOldGC extends GC {
     }
 
     public static void main(String[] args) {
-        new UseParallelOldGC().run();
+        new UseParallelOldGC().runApplication();
     }
 }

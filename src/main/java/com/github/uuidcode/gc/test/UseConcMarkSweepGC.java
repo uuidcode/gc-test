@@ -6,6 +6,6 @@ public class UseConcMarkSweepGC extends GC {
     }
 
     public static void main(String[] args) {
-        new UseConcMarkSweepGC().run();
+        new UseConcMarkSweepGC().runApplication();
     }
 }

@@ -1,12 +1,7 @@
 package com.github.uuidcode.gc.test;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 import org.slf4j.Logger;
 
@@ -22,6 +17,8 @@ public class GC {
     private String logFileName;
     private boolean fullGC = false;
     private boolean callSystemGC = false;
+    private String vmOption;
+    private String mainClassAndParameter;
 
     public GC setCallSystemGC(boolean callSystemGC) {
         this.callSystemGC = callSystemGC;
@@ -35,6 +32,11 @@ public class GC {
 
     public GC() {
         this.logFileName = this.getClass().getSimpleName() + ".log";
+        this.setDefaultVMOption();
+        Tail.of().setFileName(this.logFileName).start();
+    }
+
+    private void setDefaultVMOption() {
         this.vmOptionList.add("-XX:+PrintGCDetails");
         this.vmOptionList.add("-XX:+PrintGCApplicationStoppedTime");
         this.vmOptionList.add("-XX:+PrintGCApplicationConcurrentTime");
@@ -42,89 +44,51 @@ public class GC {
         this.vmOptionList.add("-Xloggc:" + this.logFileName);
         this.vmOptionList.add("-Xmn256M");
         this.vmOptionList.add("-Xmx1G");
-
-        printLog();
     }
 
     public void addVmOption(String vmOption) {
         this.vmOptionList.add(vmOption);
     }
 
-    public String getJavaCommand() {
-        String vmOption = this.vmOptionList.stream().collect(Collectors.joining(" "));
-        String mainClassName = Application.class.getName();
-
-        String mainClassAndParameter = StringStream.of()
-            .add(mainClassName)
-            .add("fullGC", this.fullGC)
-            .add("callSystemGC", this.callSystemGC)
-            .joiningWithSpace();
-
-        String command = StringStream.of()
-            .add("java")
-            .add(vmOption)
-            .add("-classpath")
-            .add("target/classes")
-            .add(mainClassAndParameter)
-            .joiningWithSpace();
+    public String createJavaCommand() {
+        this.vmOption = this.createVmOption();
+        this.mainClassAndParameter = this.createMainClassAndParameter();
+        String command = this.createInternalJavaCommand();
 
         if (logger.isDebugEnabled()) {
-            logger.debug(">>> getJavaCommand command: {}", CoreUtil.toJson(command));
+            logger.debug(">>> createJavaCommand command: {}", CoreUtil.toJson(command));
         }
 
         return command;
     }
 
-    public void run() {
+    private String createInternalJavaCommand() {
+        return StringStream.of()
+                .add("java")
+                .add(this.vmOption)
+                .add("-classpath")
+                .add("target/classes")
+                .add(this.mainClassAndParameter)
+                .joiningWithSpace();
+    }
+
+    private String createVmOption() {
+        return StringStream.of(this.vmOptionList).joiningWithSpace();
+    }
+
+    private String createMainClassAndParameter() {
+        return StringStream.of()
+                .add(Application.class.getName())
+                .add("fullGC", this.fullGC)
+                .add("callSystemGC", this.callSystemGC)
+                .joiningWithSpace();
+    }
+
+    public void runApplication() {
         try {
-            Runtime.getRuntime().exec(this.getJavaCommand());
+            Runtime.getRuntime().exec(this.createJavaCommand());
         } catch (Throwable t) {
             t.printStackTrace();
-        }
-    }
-
-    private void printLog() {
-        File file = new File(this.logFileName);
-        file.delete();
-
-        new Thread(() -> {
-            BufferedReader reader = null;
-
-            while (true) {
-                try {
-                    Thread.sleep(1000 * 5);
-                } catch (Throwable t) {
-                }
-
-                try {
-                    if (file.exists()) {
-                        reader = new BufferedReader(new InputStreamReader(new FileInputStream(file)));
-                        String line;
-
-                        while ((line = reader.readLine()) != null) {
-                            System.out.println(line);
-                        }
-                    }
-                } catch (Throwable t) {
-                    if (logger.isErrorEnabled()) {
-                        logger.error(">>> GC printLog error", t);
-                    }
-                } finally {
-                    close(reader);
-                }
-            }
-        }).start();
-    }
-
-    private void close(BufferedReader reader) {
-        if (reader != null) {
-            try {
-                reader.close();
-            } catch (Throwable t) {
-                if (logger.isErrorEnabled()) {
-                    this.logger.error("error GC printLog", t);
-                }
-            }
         }
     }
 }

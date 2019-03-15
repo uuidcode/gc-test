@@ -6,6 +6,6 @@ public class UseG1GC extends GC {
     }
 
     public static void main(String[] args) {
-        new UseG1GC().setFullGC(false).run();
+        new UseG1GC().setFullGC(false).runApplication();
     }
 }
