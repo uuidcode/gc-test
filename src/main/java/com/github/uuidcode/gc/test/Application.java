@@ -1,11 +1,15 @@
 package com.github.uuidcode.gc.test;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Random;
+import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
+
+import static java.util.Optional.ofNullable;
 
 public class Application {
     private Map<Long, List<Integer>> map = new HashMap<>();
@@ -74,7 +78,22 @@ public class Application {
         return 100;
     }
 
-    public static void main(String[] args){
-        new Application().run();
+    public static void main(String[] args) {
+        boolean fullGC = false;
+        boolean callSystemGC = false;
+
+        if (args != null) {
+            Set<String> parameterSet = Arrays.stream(args)
+                .collect(Collectors.toSet());
+
+            fullGC = parameterSet.contains("fullGC");
+            callSystemGC = parameterSet.contains("callSystemGC");
+        }
+
+
+        new Application()
+            .setCallSystemGC(callSystemGC)
+            .setFullGC(fullGC)
+            .run();
     }
 }
