@@ -1,13 +1,11 @@
 package com.github.uuidcode.gc.test;
 
 public class UseSerialGC extends GC {
-    public static void main(String[] args) throws Exception {
-        UseSerialGC useSerialGC = new UseSerialGC();
+    public UseSerialGC() {
+        this.addVmOption("-XX:+UseSerialGC");
+    }
 
-        useSerialGC.addVmOption("-XX:+UseSerialGC");
-        useSerialGC.addVmOption("-Xmn256M");
-        useSerialGC.addVmOption("-Xmx1G");
-
-        Runtime.getRuntime().exec(useSerialGC.getJavaCommand());
+    public static void main(String[] args){
+        new UseSerialGC().run();
     }
 }

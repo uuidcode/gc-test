@@ -17,8 +17,10 @@ public class GC {
         this.vmOptionList.add("-XX:+PrintGCApplicationConcurrentTime");
         this.vmOptionList.add("-XX:+PrintGCDateStamps");
         this.vmOptionList.add("-Xloggc:gc.log");
+        this.vmOptionList.add("-Xmn256M");
+        this.vmOptionList.add("-Xmx1G");
 
-        run();
+        printLog();
     }
 
     public void addVmOption(String vmOption) {
@@ -30,7 +32,15 @@ public class GC {
         return "java " + vmOption + " -classpath target/classes com.github.uuidcode.gc.test.Application";
     }
 
-    private void run() {
+    public void run() {
+        try {
+            Runtime.getRuntime().exec(this.getJavaCommand());
+        } catch (Throwable t) {
+            t.printStackTrace();
+        }
+    }
+
+    private void printLog() {
         File file = new File("gc.log");
         file.delete();
 

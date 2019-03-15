@@ -24,7 +24,7 @@ public class Application {
                         .findFirst()
                         .ifPresent(map::remove);
 
-                    System.gc();
+//                    System.gc();
                 }
             }
 
