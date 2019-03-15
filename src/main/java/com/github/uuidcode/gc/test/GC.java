@@ -38,8 +38,6 @@ public class GC {
 
     private void setDefaultVMOption() {
         this.vmOptionList.add("-XX:+PrintGCDetails");
-        this.vmOptionList.add("-XX:+PrintGCApplicationStoppedTime");
-        this.vmOptionList.add("-XX:+PrintGCApplicationConcurrentTime");
         this.vmOptionList.add("-XX:+PrintGCDateStamps");
         this.vmOptionList.add("-Xloggc:" + this.logFileName);
         this.vmOptionList.add("-Xmn256M");
