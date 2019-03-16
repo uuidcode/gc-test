@@ -3,16 +3,10 @@ package com.github.uuidcode.gc.test;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.slf4j.Logger;
-
 import com.github.uuidcode.builder.process.JavaProcessBuilder;
 import com.github.uuidcode.builder.process.Tail;
 
-import static org.slf4j.LoggerFactory.getLogger;
-
 public class GC {
-    protected static Logger logger = getLogger(GC.class);
-
     private List<String> optionList = new ArrayList<>();
     private String logFileName;
     private boolean fullGC = false;
@@ -33,8 +27,8 @@ public class GC {
         Tail.of().setFile(this.logFileName).start();
     }
 
-    public void addOption(String vmOption) {
-        this.optionList.add(vmOption);
+    public void addOption(String option) {
+        this.optionList.add(option);
     }
 
     public void runApplication() {
