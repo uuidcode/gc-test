@@ -1,7 +1,9 @@
 package com.github.uuidcode.gc.test;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import com.github.uuidcode.builder.process.JavaProcessBuilder;
 import com.github.uuidcode.builder.process.Tail;
@@ -9,16 +11,10 @@ import com.github.uuidcode.builder.process.Tail;
 public class GC {
     private List<String> optionList = new ArrayList<>();
     private String logFileName;
-    private boolean fullGC = false;
-    private boolean callSystemGC = false;
+    private Set<Mode> modeSet = new HashSet<>();
 
-    public GC setCallSystemGC(boolean callSystemGC) {
-        this.callSystemGC = callSystemGC;
-        return this;
-    }
-
-    public GC setFullGC(boolean fullGC) {
-        this.fullGC = fullGC;
+    public GC addMode(Mode mode) {
+        this.modeSet.add(mode);
         return this;
     }
 
@@ -31,7 +27,7 @@ public class GC {
         this.optionList.add(option);
     }
 
-    public void runApplication() {
+    public void run() {
         JavaProcessBuilder javaProcessBuilder = JavaProcessBuilder.of()
             .addOption("-XX:+PrintGCDetails")
             .addOption("-XX:+PrintGCDateStamps")
@@ -42,13 +38,9 @@ public class GC {
             .addClasspath("target/classes")
             .setClassName(Application.class);
 
-        if (this.fullGC) {
-            javaProcessBuilder.addArgument("fullGC");
-        }
-
-        if (this.callSystemGC) {
-            javaProcessBuilder.addArgument("callSystemGC");
-        }
+        this.modeSet.stream()
+            .map(Enum::name)
+            .forEach(javaProcessBuilder::addArgument);
 
         javaProcessBuilder.build();
     }

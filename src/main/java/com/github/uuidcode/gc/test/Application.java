@@ -1,9 +1,12 @@
 package com.github.uuidcode.gc.test;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 import java.util.Random;
 import java.util.Set;
 import java.util.stream.Collectors;
@@ -14,16 +17,14 @@ import static java.util.Optional.ofNullable;
 public class Application {
     private Map<Long, List<Integer>> map = new HashMap<>();
 
-    private boolean fullGC = false;
-    private boolean callSystemGC = false;
+    private Set<Mode> modeSet = new HashSet<>();
 
-    public Application setCallSystemGC(boolean callSystemGC) {
-        this.callSystemGC = callSystemGC;
-        return this;
+    public static Application of() {
+        return new Application();
     }
 
-    public Application setFullGC(boolean fullGC) {
-        this.fullGC = fullGC;
+    public Application setModeSet(Set<Mode> modeSet) {
+        this.modeSet = modeSet;
         return this;
     }
 
@@ -58,7 +59,7 @@ public class Application {
             .findFirst()
             .ifPresent(map::remove);
 
-        if (callSystemGC) {
+        if (this.modeSet.contains(Mode.CALL_SYSTEM_GC)) {
             System.gc();
         }
     }
@@ -71,7 +72,7 @@ public class Application {
     }
 
     private int getMapSize() {
-        if (this.fullGC) {
+        if (this.modeSet.contains(Mode.FULL_GC)) {
             return 1000;
         }
 
@@ -79,21 +80,14 @@ public class Application {
     }
 
     public static void main(String[] args) {
-        boolean fullGC = false;
-        boolean callSystemGC = false;
+        Set<Mode> modeSet = ofNullable(args)
+            .map(Arrays::asList)
+            .orElse(new ArrayList<>())
+            .stream()
+            .map(Mode::parse)
+            .filter(Objects::nonNull)
+            .collect(Collectors.toSet());
 
-        if (args != null) {
-            Set<String> parameterSet = Arrays.stream(args)
-                .collect(Collectors.toSet());
-
-            fullGC = parameterSet.contains("fullGC");
-            callSystemGC = parameterSet.contains("callSystemGC");
-        }
-
-
-        new Application()
-            .setCallSystemGC(callSystemGC)
-            .setFullGC(fullGC)
-            .run();
+        Application.of().setModeSet(modeSet).run();
     }
 }

@@ -6,6 +6,6 @@ public class UseSerialGC extends GC {
     }
 
     public static void main(String[] args){
-        new UseSerialGC().runApplication();
+        new UseSerialGC().run();
     }
 }
