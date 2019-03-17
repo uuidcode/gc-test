@@ -17,7 +17,12 @@
         <dependency>
             <groupId>com.github.uuidcode</groupId>
             <artifactId>builder</artifactId>
-            <version>0.0.53</version>
+            <version>0.0.54</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.jbellis</groupId>
+            <artifactId>jamm</artifactId>
+            <version>0.3.3</version>
         </dependency>
     </dependencies>
 </project>

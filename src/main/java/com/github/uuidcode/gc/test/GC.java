@@ -42,6 +42,6 @@ public class GC {
             .map(Enum::name)
             .forEach(javaProcessBuilder::addArgument);
 
-        javaProcessBuilder.build();
+        javaProcessBuilder.run();
     }
 }
