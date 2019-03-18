@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Set;
 
 import com.github.uuidcode.builder.process.JavaProcessBuilder;
+import com.github.uuidcode.builder.process.MavenProcessBuilder;
 import com.github.uuidcode.builder.process.Tail;
 
 public class GC {
@@ -28,14 +29,18 @@ public class GC {
     }
 
     public void run() {
+        List<String> libraryPathList = MavenProcessBuilder.of()
+            .getLibraryPathList();
+
         JavaProcessBuilder javaProcessBuilder = JavaProcessBuilder.of()
-            .addOption("-XX:+PrintGCDetails")
-            .addOption("-XX:+PrintGCDateStamps")
-            .addOption("-Xloggc:" + this.logFileName)
-            .addOption("-Xmn256M")
-            .addOption("-Xmx1G")
+            .printGCDetails()
+            .printGCDateStamps()
+            .loggc(this.logFileName)
+            .XmnMega(256)
+            .XmxGiga(1)
             .addOption(this.optionList)
-            .addClasspath("target/classes")
+            .addDefaultClasspath()
+            .addClasspath(libraryPathList)
             .setClassName(Application.class);
 
         this.modeSet.stream()
