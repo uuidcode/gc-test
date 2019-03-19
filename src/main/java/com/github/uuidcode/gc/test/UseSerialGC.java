@@ -2,7 +2,7 @@ package com.github.uuidcode.gc.test;
 
 public class UseSerialGC extends GC {
     public UseSerialGC() {
-        this.addOption("-XX:+UseSerialGC");
+        this.useSerialGC();
     }
 
     public static void main(String[] args){
