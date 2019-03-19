@@ -17,7 +17,7 @@
         <dependency>
             <groupId>com.github.uuidcode</groupId>
             <artifactId>builder</artifactId>
-            <version>0.0.55</version>
+            <version>0.0.57</version>
         </dependency>
         <dependency>
             <groupId>com.github.jbellis</groupId>
